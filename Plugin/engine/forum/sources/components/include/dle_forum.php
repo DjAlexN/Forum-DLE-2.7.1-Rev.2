@@ -16,7 +16,7 @@ https://www.templatedlefr.fr/
  if (!defined('DATALIFEENGINE')) exit('No direct script access allowed');
 class dle_forum
 {
-protected function board()
+public function board()
 {
 global $db;
 require_once ENGINE_DIR . '/classes/mysql.php';
