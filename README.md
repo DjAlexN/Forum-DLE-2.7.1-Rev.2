@@ -8,7 +8,14 @@ For this version, the following changes have been made:
 
 Version 2.7.1 Rev.2 (not finished) by DarkLane and Dj_AlexN
 
-The forum has been moved from php 8 to 8.2.
+- Partial rewriting of the forum code under PHP8-8.2
+- Fixed a number of bugs in the operation of the forum - Fixed the
+display of the FAQ on the page
+- Added new forum icons
+- Improved the appearance of the Administration Panel
+- Added a new look for the Offline page
+- Changed the appearance of the forum category
+- Fixed the appearance of the administration panel when adding a new subcategory.
 
 Version 2.7.1 Rev.1 by DarkLane and Dj_AlexN
 
