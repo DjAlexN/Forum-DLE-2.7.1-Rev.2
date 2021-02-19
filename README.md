@@ -7,6 +7,7 @@ This forum used to be adapted to very old versions of the engine, now it is adap
 For this version, the following changes have been made:
 
 Version 2.7.1 Rev.2 (not finished) by DarkLane and Dj_AlexN
+
 The forum has been moved from php 8 to 8.2.
 
 Version 2.7.1 Rev.1 by DarkLane and Dj_AlexN
