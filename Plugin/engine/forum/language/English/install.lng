@@ -1,0 +1,91 @@
+<?php
+/*=====================================================
+ DLE Forum 2.7.1 rev2
+-----------------------------------------------------
+ Author: Dj_AlexN & DarkLane
+-----------------------------------------------------
+ http://novak-studio.pl/
+https://www.templatedlefr.fr/
+-----------------------------------------------------
+ Copyright (c) 2015,2021 NOVAK Studio
+=====================================================
+ Copyright (c) 2020,2021 TemplateDleFr
+=====================================================
+*/
+
+$f_install = array(
+
+'mtinstall_05' => "Dle-Forum 2.7.1 module management",
+'mtinstall_06' => "Hello, {%username_to%}!\r\n{%username_from%}, A reply was written following your subscription on this subject ( \"{%topic_name%}\" ). \r\n{%topic_link%}\r\n Address:\r\n{%topic_link%}\r\n------------------------------------------------\r\nTo unsubscribe from this topic, follow this link:\r\n{%topic_link_del%}\r\n------------------------------------------------\r\nCordially,\r\n$url the Staff",
+'mtinstall_07' => "Hi, it's a%username_from%. Come take a look at this. \r\n------------------------------------------------\r\n{%text%} {\r\n{%username_from%} Come take a look at this! \r\nOur site is in no way responsible for this message. \r\nCordialement, \r\n$url Le Staff",
+'mtinstall_08' => "You have received a complaint from {%username_from%}. \r\n\r\n------------------------------------------------\r\nPlainte\r\n------------------------------------------------\r\n\r\n{%text%}\r\n\r\n------------------------------------------------\r\nÀ propos de ce rapport\r\n------------------------------------------------\r\n\r\Sujet: {%topic_link%}\r\n\r\nMessage ID: {%post_id%}\r\n\r\n------------------------------------------------\r\n\r\nCordialement,\r\n\r\n$url Le Staff",
+'mtinstall_09' => "Dear administrator, A new topic has been added. \r\n------------------------------------------------\r\nAbout this discussion: {%username%} {\r\nDate: {%date%} {\r\nTitle%} {\r\nLien: {%link%} {\r\nCordially,\r\n$url Le Staff",
+'mtinstall_10' => "Category",
+'mtinstall_11' => "Forum",
+'mtinstall_12' => "Welcome to your forum",
+'mtinstall_13' => "Welcome to your new DLE forum!  If you have any questions or suggestions, please do not hesitate to contact the support forum",
+'mtinstall_14' => "Welcome to your forum",
+'mtinstall_15' => "Welcome to your new DLE Forum!<br /> For questions or suggestions, please contact <a href=\"https://www.templatedlefr.fr/forum/categories/17-script-dle-forum/\" target=\"_blank\">support forum</a>. <br /><br />The created section, the forum and this post are tested, you can delete them at any time.<br /><b> Respectfully,<br /><a href=\"https://www.templatedlefr.fr/\" target=\"_blank\">TemplateDleFr</a></b>",
+'mtforum_00' => "Novice",
+'mtforum_01' => "New member",
+'mtforum_02' => "Active member",
+'faq_categ1' => "User information",
+'faq_categ2' => "User Preferences and Settings",
+'faq_categ3' => "Publication problems",
+'faq_categ4' => "Formatting and types of subjects",
+'faq_categ1' => "Information about users",
+'faq_categ2' => "User preferences and settings",
+'faq_categ3' => "Publishing problems",
+'faq_categ4' => "Formatting and types of subjects",
+'faq_item1' => "Why can't I connect?",
+'faq_item2' => "There are several possible reasons for this. First, make sure your username and password are correct. If they are, contact the forum owner to make sure you haven't been banned. It is also possible that the website owner has a configuration error on their side and needs to be corrected. ",
+'faq_item3' => "Why do I need to register, after all?",
+'faq_item4' => "You can not do it, it is up to the board administrator to require or not that you are registered in order to be able to post messages. However, the registration will give you access to additional features which are not available to visitors, such as personalized avatars, private messaging, sending emails to other users, joining a user group, etc. This only takes you a short time and we recommend therefore to do so. ",
+'faq_item5' => "Why am I automatically logged out?",
+'faq_item6' => "If you do not check the box Log me in automatically when you log in, you will only stay logged in to the forum for a predefined period. This will prevent your account from being used by someone else . To stay logged in, please check the corresponding box when logging in. This is not recommended if you are accessing the forum through a public computer, such as in a bookstore, internet cafe, university, etc. . If you cannot find this check box, it is likely that an administrator has disabled this feature. ",
+'faq_item7' => "I lost my password!",
+'faq_item8' => "Don't panic! Although your password cannot be retrieved, it can easily be reset. Go to the login page and click on I lost my password. Follow the instructions and you should be able to log in again shortly. ",
+'faq_item9' => "I am registered but cannot connect!",
+'faq_item10' => "First, check your username and password. If they are correct then one of the following two things may have happened. If COPPA support is enabled and you have specified that you are under 13 years of age during registration, you will need to follow the instructions you received. Some forums will also require that new registrations must be activated, either by yourself or by an administrator, before you can log in; this information was present when you registered. If you had received an email, see the instructions. If you do not receive an email, you probably specified the wrong email address or the email was filtered as only spam. If you are sure that the email address you specified was correct, try contacting an administrator. ",
+'faq_item11' => "I had already registered in the past but I can no longer log in!",
+'faq_item12' => "It is possible that an administrator has deactivated or deleted your account for some reason. In addition, many forums periodically remove users who have not posted anything for a while in order to reduce the size of their database. If so, register again and try to participate more actively in the discussions on the forum. ",
+'faq_item13' => "Why can't I register?",
+'faq_item14' => "It is possible that the website owner has banned your IP address or banned the username you wish to use. The forum owner may also have decided to disable subscriptions in order to prevent all new visitors to register. For more information, please contact a forum administrator. ",
+'faq_item15' => "How can I modify my settings?",
+'faq_item16' => "If you are a registered user, all your settings are stored in the forum database. If you want to change them, go to your user control panel; this link is usually located at the top of the forum pages. This system will allow you to modify all your settings and preferences. ",
+'faq_item17' => "What is my rank and how can I modify it?",
+'faq_item18' => "The rows, which appear below your username, indicate the number of posts you have under your belt or identify some special users, such as moderators and administrators. In most cases, only a board administrator can edit the board rank text. Please do not abuse this system by posting unnecessary messages to increase your board rank. Many boards will not tolerate this and a moderator or administrator will lower your message count. ",
+'faq_item19' => "When I click on a user's email link, I am asked to login?",
+'faq_item20' => "If the administrator has enabled this feature, only registered users can send emails to other users through a form. This is to prevent malicious use of the email system by anonymous users or bots. ",
+'faq_item21' => "How can I display an avatar for my username?",
+'faq_item22' => "Two types of images, visible when viewing messages, can be associated with your username. One of them can be an image associated with your rank, usually in the form of a stars, squares or circles, which indicate the number of posts to your credit or your status on the forum. The other type, usually a larger image, is known as an avatar and is usually unique and personal to each user. It is up to the board administrator whether or not to enable avatars and decide how they are provided. If you cannot use avatars, contact the board administrator and ask - for what reasons did he wish to deactivate this feature. ",
+'faq_item23' => "How can I create a poll?",
+'faq_item24' => "When you write a new subject or edit the first post of a subject, click on the \"Create a poll\" tab, located below the main editorial form; if this tab is not is not available, it is likely that you do not have the correct permissions to create surveys. Enter the survey title including at least two options in the appropriate fields, each option must be inserted on a new line. You can set the number of options that users can insert by selecting, during voting, the setting of “Options by user.” You can also specify a time limit in days, then finally allow or not the users to modify their votes. ",
+'faq_item25' => "Why can't I add more options to a survey?",
+'faq_item26' => "The limit of options for a poll is set by the board administrator. If the number of options you can add to a poll seems too small, ask a board administrator for it is possible to increase it. ",
+'faq_item27' => "How can I publish a topic in a forum?",
+'faq_item28' => "To post a new topic in a forum, click on the appropriate button located on the forum or topic screen. You may need to be registered before you can write a message. On each forum, a list of your permissions is displayed at the bottom of the forum or topic screen. For example: you can post new topics, you can vote in polls, etc. ",
+'faq_item29' => "How can I edit or delete a message?",
+'faq_item30' => "Unless you are an administrator or moderator of the forum, you can only edit or delete your own posts. You can edit one of your posts by clicking the appropriate button, sometimes within a time limit after the initial post has been posted. If someone has already replied to the post, a small text below the post will list the number of times you edited it, containing the date and time of editing This small text will not appear if it is a moderator or administrator editing, although they may take the initiative to write a discreet note expressing the reason for their editing. Please note that normal users cannot delete their own post if a reply has been posted. ",
+'faq_item31' => "How can I add a signature to a message?",
+'faq_item32' => "To add a signature to a message, you must first create one through your user control panel. Once created, you can check the Insert signature box on the editorial form in order to insert your signature. You can also add a signature which will be inserted in all your messages by checking the appropriate box in your profile. If you choose this last option, it will no longer be useful for you to specify on each message your wish to insert your signature. ",
+'faq_item33' => "What is BBCode?",
+'faq_item34' => "BBCode is a special implementation of HTML, giving you greater control over the formatting of a message. The use of BBCode is determined by the administrator, but you can also disable it on each message from the editorial form. BBCode is similar to the architecture of HTML, the tags are enclosed in square brackets [and] instead of <and>. For more information about the BBCode, please see the guide which is accessible from the editorial page. ",
+'faq_item35' => "What are emoticons?",
+'faq_item36' => "Emoticons are small images which can be used through the use of a short code and which allow to express feelings. For example," :) "expresses joy while on the contrary ":(" expresses sadness. You can view the full list of emoticons from the compose form. However, try not to overdo emoticons, they can quickly render a post unreadable and a moderator might decide to edit or edit it. delete completely. The board administrator can also limit the number of emoticons that can be inserted in a post. ",
+'faq_item37' => "Can I insert images?",
+'faq_item38' => "Yes, you can insert images in your messages. If the board administrator has allowed the insertion of attachments, you will be able to upload images to the board. Otherwise, you will have to insert a link pointing to an image stored on a public internet server, such as http://www.example.com/my-image.gif.However, you will not be able to insert a link pointing to images stored on your own computer (unless, of course, that it is in itself an internet server) nor insert a link pointing to images stored behind any authentication system, such as for example the electronic mail services of Hotmail or Yahoo, protected sites with a password, etc. To insert an image, use the BBCode [img] tag. ",
+'faq_item39' => "What are global announcements?",
+'faq_item40' => "Global announcements contain very important information and you should read them as soon as possible. They appear at the top of every forum and in your user control panel. Global announcements permissions are set by the forum administrator. ",
+'faq_item41' => "What are announcements?",
+'faq_item42' => "Announcements often contain important information about the forum you are browsing in and you should review them as soon as possible. Announcements appear at the top of every page of the forum in which they were posted. As do global announcements, permissions for announcements are set by the board administrator. ",
+'faq_item43' => "What are the notes?",
+'faq_item44' => "The notes appear below the announcements and only on the first page of the relevant forum. They are often quite important and it is recommended to consult them as soon as possible. Just like announcements and announcements global, the permissions concerning the notes are defined by the administrator of the forum. ",
+'faq_item45' => "What are locked topics?",
+'faq_item46' => "Locked topics are topics in which users can no longer respond and in which polls are automatically expired. Topics can be locked for many reasons by a moderator or board administrator. You can also lock your own topics if the administrator has decided to do so. ",
+'faq_item47' => "What are topic icons?",
+'faq_item48' => "Topic icons are small images that the author can insert to illustrate the content of their topic. The board administrator may not have this feature enabled.",
+
+);
+
+?>

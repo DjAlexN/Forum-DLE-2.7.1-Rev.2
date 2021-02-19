@@ -1,0 +1,262 @@
+<?php
+/*=====================================================
+ DLE Forum 2.7.1 rev2
+-----------------------------------------------------
+ Author: Dj_AlexN & DarkLane
+-----------------------------------------------------
+ http://novak-studio.pl/
+https://www.templatedlefr.fr/
+-----------------------------------------------------
+ Copyright (c) 2015,2021 NOVAK Studio
+=====================================================
+ Copyright (c) 2020,2021 TemplateDleFr
+=====================================================
+*/
+
+// ********************************************************************************
+// Zone Forum v.2.7
+// ********************************************************************************
+
+$f_lang = array(
+
+/*2.7.1 rev2*/
+'fs_new'     => "Forum fermé, Il y a des nouveaux messages",
+'fs_nonew'   => "Forum fermé, Il y a pas de nouveaux messages",
+'last_post_new'    => "<img src='{THEME}/forum/images/icon_topic_newest.gif' title='Nouveau message' border='0' style='margin-bottom:-6px;' /> par",
+'no_member'    => "Aucun",
+
+/*2.7.1 rev1*/
+
+'hide_info' => "Attention! Vous n'êtes pas autorisé à afficher le texte masqué. Les messages de",
+'hide_info_' => "doivent être activé.",
+'f_preview' => "Aperçu du message",
+'f_display' => "Afficher",
+'f_hide' => "Masquer",
+'f_topic_close' => "Sujet fermé",
+'f_quick_reply' => "Réponse rapide",
+'f_submit' => "Soumettre",
+'f_all' => "Tous",
+'f_unsubscribe' => "Se désabonner",
+'f_upload_file' => "Importer un fichier",
+'f_file' => "Fichier",
+'f_file2' => "uploadés",
+'f_file3' => "Importer",
+'f_file_error' => "Impossible d'importer le fichier sur le serveur!",
+'f_img_error' => "Image trop grande!",
+'f_img_error2' => "Format de fichier incorrect!",
+'f_upload_error' => "La taille maximale d'un fichier autorisée:",
+'f_upload_files' => "Fichiers importé",
+'f_upload_author' => "Auteur",
+'f_file_delete' => "Supprimer",
+'f_no_upload_files' => "Aucun fichier a été importé",
+'f_no_icon' => "Aucune icones",
+'f_upload_files2' => "Téléchargement de fichiers et d'images sur le serveur",
+'ajax_stop_6'      => "Un ou plusieurs nouveaux messages ont été postés pendant que vous écriviez une réponse",
+'Post revision'			=>	'ATTENTION - Nouvelle réponse',
+'Post revision info'	=>	'Un ou plusieurs nouveaux messages ont été postés pendant que vous écriviez. <br /><br />Vous pouvez le lire ci-dessous avant de soumettre votre message.',
+'f_rep_m' => "Enlever des points de réputation",
+'f_rep_p' => "Ajouter des points de réputation",
+'post_maxlen'  => "La longueur du message est supérieure à la limite autorisé!",
+'topic_option'  => "Modifier le titre",
+'topic_option1'  => "Déplacer le sujet",
+'topic_option2'  => "Résolu",
+'topic_option3'  => "Ouvrir un sujet",
+'topic_option4'  => "Vérrouiller le sujet",
+'topic_option5'  => "Dévérrouiller le sujet",
+'topic_option6'  => "Masquer le sujet",
+'topic_option7'  => "Publier le sujet",
+'topic_option8'  => "Supprimer le sujet",
+'topic_option9'  => "Informations supplémentaires",
+'topic_option10'  => "Supprimer le sujet",
+'posts_option'  => "Messages",
+'posts_option1'  => "Fusionné",
+'posts_option2'  => "Déplacer",
+'posts_option3'  => "Publié le message",
+'posts_option4'  => "Cacher le message",
+'posts_option5'  => "Supprimer le message",
+
+// add for 2.6.3 //
+
+'f_users_guest'      => "Invité",
+'f_whoonline'		=>        'Qui est en ligne?',
+'view_index'				=>        'Se trouve sur l index des forums',
+'add_post'		=>		  'Post un nouveau sujet',
+'view_online'			=>        'Regarde la liste des connectés',
+'f_viewtopic'			=>        'Regarde un topic:',
+'f_viewforum'			=>        'Regarde un forum:',
+'f_search'			=>        'Effectue une recherche',
+'f_getnew'			=>        'Regarde les nouveaux posts',
+'f_subscription'			=>        'Regarde ses abonnements',
+'f_rss'			=>        'Regarde le flux RSS du forum',
+'f_moderation'		=>        'Effectue une modération du forum',
+'f_topic'			=>        'Se trouve quelque part',
+
+'err_move'    => "Vous essayez de déplacer le premier message, ou, vous avez sélectionné aucun message(s) à déplacer <a href=\"javascript:history.go(-1)\">Retour</a>",
+'err_combining'    => "Vous essayez de fusionner le premier message, ou, vous avez sélectionné aucun message(s) à fusionner <a href=\"javascript:history.go(-1)\">Retour</a>",
+'err_del'    => "Vous essayez de supprimer le premier message, ou, vous avez sélectionné aucun message(s) à supprimer <a href=\"javascript:history.go(-1)\">Retour</a>",
+'err_hidden'    => "Vous essayez de masquer le premier message, ou, vous avez sélectionné aucun message(s) à masquer <a href=\"javascript:history.go(-1)\">Retour</a>",
+'err_unhidden'    => "Vous essayez de publier le premier message, ou, vous avez sélectionné aucun message(s) à publier <a href=\"javascript:history.go(-1)\">Retour</a>",
+'err_open_topic'    => "Vous avez sélectionné aucun sujet(s) à ouvrir <a href=\"javascript:history.go(-1)\">Retour</a>",
+'err_close_topic'    => "Vous avez sélectionné aucun sujet(s) à fermer <a href=\"javascript:history.go(-1)\">Retour</a>",
+'err_del_topic'    => "Vous avez sélectionné aucun sujet(s) à supprimer <a href=\"javascript:history.go(-1)\">Retour</a>",
+'err_title_topic'    => "Vous avez sélectionné aucun sujet(s) pour modifier le titre <a href=\"javascript:history.go(-1)\">Retour</a>",
+'err_move_topic'    => "Vous avez sélectionné aucun sujet(s) à déplacer <a href=\"javascript:history.go(-1)\">Retour</a>",
+'err_hidden_topic'    => "Vous avez sélectionné aucun sujet(s) à masquer <a href=\"javascript:history.go(-1)\">Retour</a>",
+'err_unhidden_topic'    => "Vous avez sélectionné aucun sujet(s) à publier <a href=\"javascript:history.go(-1)\">Retour</a>",
+'err_fixed_topic'    => "Vous avez sélectionné aucun sujet(s) à épingler <a href=\"javascript:history.go(-1)\">Retour</a>",
+'err_unfixed_topic'    => "Vous avez sélectionné aucun sujet(s) à dépingler <a href=\"javascript:history.go(-1)\">Retour</a>",
+
+
+'app_move_post'        => "Déplacer un message",
+'app_combining'        => "Fusionner un message",
+'app_hidden'        => "Masquer un message",
+'app_unhidden'        => "Publier un message",
+'app_del'        => "Supprimer un message",
+'app_hidden_topic'        => "Masquer un sujet",
+'app_unhidden_topic'        => "Publier un sujet",
+'app_fixed_topic'        => "Epingler un sujet",
+'app_unfixed_topic'        => "Dépingler un sujet",
+'app_del_topic'        => "Supprimer un sujet",
+'app_close_topic'        => "Fermer un sujet",
+'app_open_topic'        => "Ouvrir un sujet",
+
+// add for 2.6 //
+
+'fs_redirect'      => "Redirection",
+'app_topic_edit'   => "Modification des sujets",
+'app_move_topic'   => "Deplacements de sujets",
+'app_posts'        => "Messages",
+'warn_cause_enter' => "Entrez une raison:",
+'warn_type_1'      => "Avertissements",
+'warn_type_2'      => "Le mode lecture seule",
+'warn_type_3'      => "Interdire",
+'warn_time_1'      => "Jour",
+'warn_time_2'      => "Semaine",
+'warn_time_3'      => "Mois",
+'warn_rm_info'     => "L utilisateur est en mode de lecture seule à:",
+'read_mode_ndeny'  => "Il vous est interdit de publier des messages et sujets avant: {time}. <a href=\"javascript:history.go(-1)\">Retour</a>",
+'ajax_stop_5'      => "Il vous est interdit de publier des messages et sujets avant: ",
+'js_error_b'       => "Erreur",
+'mail_title'       => "Notification par courriel de réponses au présent sujet",
+'app_edit_post'    => "Modifier le message",
+'user_no_topics'   => "Sujets introuvable. <a href=\"javascript:history.go(-1)\">Retour</a>",
+'user_no_posts'    => "Messages trouvés. <a href=\"javascript:history.go(-1)\">Retour</a>",
+
+// add for 2.4 //
+
+'moderators'    => "Modérateurs:",
+'spoiler_title' => "Afficher / Masquer le texte",
+'i_quote'       => "Citation:",
+
+// add for 2.3 //
+
+'captcha_stop' => "Le code de sécurité ne correspond pas! <a href=\"javascript:history.go(-1)\">Retour</a>",
+'maxlen_stop'  => "La longueur du message est supérieure à la limite autorisé! <a href=\"javascript:history.go(-1)\">Retour</a>",
+'ajax_stop_1'  => "Le contrôle des floods a été activé!",
+'ajax_stop_2'  => "Le code de sécurité ne correspond pas!",
+'ajax_stop_3'  => "Remplissez tous les champs obligatoires!",
+'ajax_stop_4'  => "La longueur du message est supérieure à la limite autorisé!",
+'topic_last_p' => "Aller au dernier message:",
+'last_visit'   => "<b>Bienvenue, votre dernière visite date du</b>",
+'reg_name'     => "<br />Enregistrée le ",
+
+'f_msg'      => "Forum message",
+'f_404'      => "Cette référence a été supprimé. <a href=\"javascript:history.go(-1)\">Retour</a>",
+'page_deny'  => "Les membres du groupe <b>{user_group}</b>, ne peuvent pas afficher cette page.",
+
+'all_info'    => "Information",
+
+'values_error'  => "Tous les champs sont obligatoires! Vous n'avez pas mis de message. <a href=\"javascript:history.go(-1)\">Retour</a>",
+
+'subforums'  => " - Sous-Forum",
+
+'forum_read' => "Les membres du groupe <b>{user_group}</b>, ne peuvent pas voir ce forum.",
+'topic_read' => "Les membres du groupe <b>{user_group}</b>, ne peuvent pas voir ce sujet.",
+'topic_write' => "Les membres du groupe <b>{user_group}</b>, ne peuvent pas poster sur ce forum.",
+'forum_down' => "Les membres du groupe <b>{user_group}</b>, ne peuvent pas telecharger des fichiers sur ce forum.",
+
+'is_topics'  => "<center><b>Non trouvé. ce forum existe pas, ou ce topic a été supprimé.</b></center>",
+
+'search_nresult' => "La recherche a renvoyée aucun resultat. <a href=\"javascript:history.go(-1)\">Effectuez une nouvelle recherche</a>",
+'search_error' => " Vous avez entré moins de 4 caracteres!. <a href=\"javascript:history.go(-1)\">Effectuez une nouvelle recherche</a>",
+
+'topic_yes'    => "Il y a des réponses",
+'topic_no'     => "Il y a pas de réponses",
+'topic_closed' => "Sujet fermé",
+'last_post'    => "<img src='{THEME}/forum/images/icon_topic_latest.gif' title='Dernier message' border='0' style='margin-bottom:-6px;' /> par",
+
+'mtf_op'       => "Option",
+'mtf_01'       => " - Ouvrir",
+'mtf_02'       => " - Fermer",
+'mtf_03'       => " - Supprimer",
+'mtf_05'       => " - Deplacer",
+'mtf_06'       => " - Cacher",
+'mtf_07'       => " - Publier",
+'mtf_08'       => " - Epingler",
+'mtf_09'       => " - Ne pas epingler",
+
+'time_heute'		=>	"Aujourd'hui",
+'time_gestern'		=>	"Hier",
+
+'fs_new'     => "Il y a des nouveaux messages",
+'fs_nonew'   => "Il y a pas de nouveaux messages",
+
+'fl_topic'   => "<br /><b>Sujet:</b>",
+'fl_author'  => "<br /><b>Auteur:</b>",
+'fl_nopost'  => "Il n'y a pas de messages",
+'fl_c_forum' => "<i>Forum fermer</i>",
+
+'err_mail'    => "L'adresse e-mail est incorrect!.",
+'err_name'    => "Vous avez entre un nom d un utilisateur existant. Si vous etes l utilisateur, veuillez-vous connecter.",
+
+'topic_add_stop'    => "Remplissez tous les champs obligatoires! Vous n'avez pas indiquez le titre ou vous n'avez pas mis de message <a href=\"javascript:history.go(-1)\">Retour</a>",
+'topic_add_ndeny'   => "Les membres du groupe <b>{user_group}</b>, ne peuvent pas ouvrir des sujets dans ce forum.",
+
+'app_warn'          => "Avertissements",
+'app_rep'           => "Reputation",
+'app_subscr'        => "Inscription",
+'app_getnew'        => "Nouveaux Messages",
+'app_newtopic'      => "Nouveau Sujet",
+'app_reply'         => "Repondre",
+'app_user_topic'    => "Sujet",
+'app_post_edit'     => "Editer",
+'app_search'        => "Rechercher",
+
+'search_result'     => "Resultat de la recherche",
+
+'u_log_empty'       => "<hr><center><b>Le journal de l utilisateur est vide.</b></center>",
+
+'f_reply'          => "Reponse rapide",
+
+'getnew_title'      => "Messages depuis votre derniere visite",
+'all_read_link'     => "Tout lire",
+
+'subscr_not'        => "<center><b>vous avez pas d abonnement sur aucun sujet.</b></center>",
+
+'search_result'     => "Resultat de la recherche",
+'search_topic'      => "La recherche ne renvoie aucun resultat. <a href='javascript:history.go(-1)'>Retour</a>",
+
+'report_send'     => "Le rapport a ete envoye avec succés. <a href=\"{link}\">Retour</a>",
+
+'mail_send'        => "Le mail a été envoyé avec succés <a href=\"{link}\">Retour</a>",
+
+'title_forward'    => "Envoyer un mail à un ami",
+
+'edit_info'        => "Message éditer par",
+
+'err_name'         => "<Li>Vérifiez que vous avez entré le nom!</Li>",
+'err_mail'         => "<Li>Vérifiez que vous avez entré l'e-mail!</Li>",
+
+'h_post'           => "<b>Message cacher</b>",
+
+'bb_t_apply'         => "Modifier",
+'bb_t_cancel'         => "Annuler",
+
+'flood_stop'       => "Le contrôle du flood a été activé, écrivez votre message dans {time} seconds. <a href='javascript:history.go(-1)'>Retour</a>",
+
+'discuss_no_cat' => "Choisissez un forum pour cette catégorie de news. <a href=\"javascript:history.go(-1)\">Retour</a>",
+'discuss_off'    => "Cette fonction est désactivée. pour créer forum veuillez vous connecter. <a href=\"javascript:history.go(-1)\">Retour</a>",
+
+);
+
+?>

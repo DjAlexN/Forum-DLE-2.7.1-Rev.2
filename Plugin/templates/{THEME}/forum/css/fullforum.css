@@ -1,0 +1,48 @@
+body{font-family: 'AmbleRegular';background: url(../images/bodybg.jpg);margin:30px 0 30px 0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+.wrap{width:80%;margin:0 auto;-moz-transition:all .2s linear;-webkit-transition:all .2s linear; -o-transition:all .2s linear; -ms-transition:all .2s linear;}
+.total{}
+.logo{float:left;}
+.header-top{padding-bottom: 20px;}
+.header-bot{padding: 0% 0 2%;}
+.f-right{float: right;}
+.clear{clear:both;}/* clear float */
+.copy{text-align:center;font-size:15px;text-transform:uppercase;padding-top:2%;}
+.copy p a{color:#0088B8;}
+.copy p a:hover{color:#333;}
+
+/*--footer--*/
+.footer-top{padding-top:2%;border-bottom: 1px solid #E7E5E5;}
+#nav-bar{width: 100%;border-radius: 5px 5px 0 0;padding: 10px 0 0 0;list-style: none;background-image: url('../images/dlet_tile_cat.png');/*-moz-border-radius: 50px;border-radius: 50px;*/-moz-box-shadow: 0 2px 1px #9c9c9c;-webkit-box-shadow: 0 2px 1px #9c9c9c;box-shadow: 0 2px 1px #9c9c9c;}
+#nav-bar li{float: left;padding: 0 0 10px 0;position: relative;}
+#nav-bar a{float: left;/*! height: 25px; */padding: 0 25px;color: #fff;text-transform: uppercase;font: bold 12px/25px Arial, Helvetica;text-decoration: none;text-shadow: 0 1px 0 #000;}
+#nav-bar li:hover > a{color: #fff;}
+*html #nav-bar li a:hover{ /* IE6 */color: #5891bc;}
+#nav-bar li:hover > ul{display: block;}
+
+/* Sous-nav-bar */
+#nav-bar ul{list-style: none;margin: 0;padding: 0;display: none;position: absolute;top: 35px;left: 0;z-index: 99999;background: #444;background: -moz-linear-gradient(#444, #111);background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #111),color-stop(1, #444));background: -webkit-linear-gradient(#444, #111);background: -o-linear-gradient(#444, #111);background: -ms-linear-gradient(#444, #111);background: linear-gradient(#444, #111);/* -moz-border-radius: 5px;border-radius: 5px;*/}
+#nav-bar ul li{float: none;margin: 0;padding: 0;display: block;-moz-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;-webkit-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;}
+#nav-bar ul li:last-child{-moz-box-shadow: none;-webkit-box-shadow: none;box-shadow: none;}
+#nav-bar ul a{padding: 10px;height: auto;line-height: 1;display: block;white-space: nowrap;float: none;text-transform: none;}
+
+*html #nav-bar ul a{ /* IE6 */height: 10px;width: 150px;}
+*:first-child+html #nav-bar ul a{ /* IE7 */height: 10px;width: 150px;}
+#nav-bar ul a:hover{background: #0186ba;background: -moz-linear-gradient(#04acec,  #0186ba);background: -webkit-gradient(linear, left top, left bottom, from(#04acec), to(#0186ba));background: -webkit-linear-gradient(#04acec,  #0186ba);background: -o-linear-gradient(#04acec,  #0186ba);background: -ms-linear-gradient(#04acec,  #0186ba);background: linear-gradient(#04acec,  #0186ba);}
+#nav-bar ul li:first-child a{-moz-border-radius: 5px 5px 0 0;-webkit-border-radius: 5px 5px 0 0;border-radius: 5px 5px 0 0;}
+#nav-bar ul li:first-child a:after{content: '';position: absolute;left: 30px;top: -8px;width: 0;height: 0;border-left: 5px solid transparent;border-right: 5px solid transparent;border-bottom: 8px solid #444;}
+#nav-bar ul li:first-child a:hover:after{border-bottom-color: #04acec;}
+#nav-bar ul li:last-child a{-moz-border-radius: 0 0 5px 5px;-webkit-border-radius: 0 0 5px 5px;border-radius: 0 0 5px 5px;}
+
+/* Przywrócenie pływaka */
+#nav-bar:after{visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+
+* html #nav-bar { zoom: 1; } /* IE6 */
+*:first-child+html #nav-bar { zoom: 1; } /* IE7 */
+/*---emoji Smiles---*/
+.emoji {border: none;vertical-align: middle;width: 22px;height: 22px;}
+.emoji_box {width:100%;max-width: 390px;max-height: 300px;overflow: auto;}
+.emoji_category {padding:7px;clear:both;}
+.emoji_list {margin-top:5px;margin-bottom:5px;width:100%;font-family:'Apple Color Emoji', 'Segoe UI Emoji', 'NotoColorEmoji', 'Segoe UI Symbol', 'Android Emoji', 'EmojiSymbols';font-size:2em;}
+.emoji_symbol {float:left;margin-bottom: 10px;width:12.5%;text-align:center;}
+.emoji_symbol a, .emoji_symbol a:hover {cursor: pointer;text-decoration:none;}
+.native-emoji {font-size: 1.3em;font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'NotoColorEmoji', 'Segoe UI Symbol', 'Android Emoji', 'EmojiSymbols';}

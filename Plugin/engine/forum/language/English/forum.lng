@@ -1,0 +1,259 @@
+<?php
+/*=====================================================
+ DLE Forum 2.7.1 rev2
+-----------------------------------------------------
+ Author: Dj_AlexN & DarkLane
+-----------------------------------------------------
+ http://novak-studio.pl/
+https://www.templatedlefr.fr/
+-----------------------------------------------------
+ Copyright (c) 2015,2021 NOVAK Studio
+=====================================================
+ Copyright (c) 2020,2021 TemplateDleFr
+=====================================================
+*/
+
+// ********************************************************************************
+// DLE Forum v.2.7
+// ********************************************************************************
+
+$f_lang = array(
+
+/*2.7.1 rev2*/
+'fs_new' => "Forum closed, There are new messages",
+'fs_nonew' => "Forum closed, no new posts",
+'last_post_new' => "<img src='{THEME}/forum/images/icon_topic_newest.gif' title='New post' border='0' style='margin-bottom:-6px;' /> by",
+
+/*2.7.1 rev1*/
+
+'hide_info' => "Attention! You do not have permission to view hidden text.",
+'hide_info_' => "posts are required.",
+'f_password' => "Password",
+'f_display' => "Display",
+'f_hide' => "Hide",
+'f_topic_close' => "Subject closed",
+'f_quick_reply' => "Quick answer",
+'f_submit' => "Submit",
+'f_all' => "All",
+'f_unsubscribe' => "Unsubscribe",
+'f_upload_file' => "Import a file",
+'f_file' => "File",
+'f_file2' => "uploaded",
+'f_file3' => "Import",
+'f_file_error' => "Cannot import file on server!",
+'f_img_error' => "Image too big!",
+'f_img_error2' => "Incorrect file format!",
+'f_upload_error' => "Maximum file size allowed:",
+'f_upload_files' => "Imported files",
+'f_upload_author' => "Author",
+'f_file_delete' => "Delete",
+'f_no_upload_files' => "No files have been imported",
+'f_no_icon' => "No icons",
+'f_upload_files2' => "Uploading files and images to the server",
+'ajax_stop_6' => "One or more new messages were posted while you were writing a reply",
+'Post revision' => 'ATTENTION - New answer',
+'Post revision info' => 'One or more new messages were posted while you were writing. <Please read it below before submitting your message',
+'f_rep_m' => 'Remove reputation points',
+'f_rep_p' => "Add reputation points",
+'post_maxlen' => "The length of the message is longer than the allowed limit!",
+'topic_option' => "Change title",
+'topic_option1' => "Move topic",
+'topic_option2' => "Resolved",
+'topic_option3' => "Open topic",
+'topic_option4' => "Lock topic",
+'topic_option5' => "Unlock the topic",
+'topic_option6' => "Hide topic",
+'topic_option7' => "Publish topic",
+'topic_option8' => "Delete topic",
+'topic_option9' => "Additional information",
+'topic_option10' => "Delete topic",
+'posts_option' => "Messages",
+'posts_option1' => "Merged",
+'posts_option2' => "Move",
+'posts_option3' => "Published the message",
+'posts_option4' => "Hide message",
+'posts_option5' => "Delete message",
+
+// add for 2.6.3 //
+
+'f_users_guest' => "Guest",
+'f_whoonline' => "Who's online",
+'view_index' => "Can be found in the forum index",
+'add_post' => "Post a new topic",
+'view_online' => "View the list of connected users",
+'f_viewtopic' => "Look at a topic:",
+'f_viewforum' => "View forum:",
+'f_search' => "Perform a search",
+'f_getnew' => "Check out new posts",
+'f_subscription' => "Look at his subscriptions",
+'f_rss' => "Watch the forum RSS feed",
+'f_moderation' => "Carries out a forum moderation",
+'f_topic' => "Is somewhere",
+
+'f_msg'      => "Forum message",
+'f_404'      => "Reference, is «dead» or deleted. <a href=\"javascript:history.go(-1)\">go back</a>",
+'page_deny'  => "Members, of group <b>{user_group}</b>, cannot view this page.",
+
+'all_info'    => "Information",
+
+'values_error'  => "All fields are required! You did not put a message. <a href=\"javascript:history.go(-1)\">go back</a>",
+
+'subforums'  => " - подфорумы",
+
+'forum_read' => "Members, of group <b>{user_group}</b>, cannot view this forum.",
+'topic_read' => "Members, of group <b>{user_group}</b>, cannot view this topic.",
+'topic_write' => "Members, of group <b>{user_group}</b>, cannot leave post on this forum.",
+'forum_down' => "Members, of group <b>{user_group}</b>, cannot download files on this forum.",
+
+'is_topics'  => "<center><b>Not found. it is poseble that in this forum not exist any topic, or the topic are to old and was deleted.</b></center>",
+
+'search_nresult' => "The search did not return any results. <a href=\"javascript:history.go(-1)\">search again?</a>",
+'search_error' => " You have entered less than 4 characters!. <a href=\"javascript:history.go(-1)\">search again?</a>",
+
+'topic_yes'    => "With answers",
+'topic_no'     => "Without answers",
+'topic_closed' => "Topic closed",
+'last_post'    => "<img src='{THEME}/forum/images/icon_topic_latest.gif' title='Last post' border='0' style='margin-bottom:-6px;' /> by",
+
+'mtf_op'       => "Option",
+'mtf_01'       => " - Open",
+'mtf_02'       => " - Close",
+'mtf_03'       => " - Delete",
+'mtf_05'       => " - Move",
+'mtf_06'       => " - Hide",
+'mtf_07'       => " - Publish",
+'mtf_08'       => " - Pin",
+'mtf_09'       => " - Unpin",
+
+'time_heute'		=>	"Today",
+'time_gestern'		=>	"Yesterday",
+
+'fs_new'     => "There are new messages",
+'fs_nonew'   => "There are not new messages",
+
+'fl_topic'   => "<br /><b>Topic:</b>",
+'fl_author'  => "<br /><b>Author:</b>",
+'fl_nopost'  => "There are not messages",
+'fl_c_forum' => "<i>Closed forum</i>",
+
+'err_mail'    => "E-mail address is incorrect!.",
+'err_name'    => "You have entered the name of a registered user. If you are this user you must login first.",
+
+'topic_add_stop'    => "Fill in all required fields! You did not indicate the title or you did not put a message <a href=\"javascript:history.go(-1)\">go back</a>",
+'topic_add_ndeny'   => "Members, of group <b>{user_group}</b>, cannot open topics on this forum.",
+
+'app_warn'          => "Warn",
+'app_rep'           => "Reputation",
+'app_subscr'        => "Subscrition",
+'app_getnew'        => "New Messages",
+'app_newtopic'      => "New Topic",
+'app_reply'         => "Reply",
+'app_user_topic'    => "User topics",
+'app_post_edit'     => "Edit message",
+'app_search'        => "Search",
+
+'search_result'     => "Search result",
+
+'u_log_empty'       => "<hr><center><b>User magazine is empty.</b></center>",
+
+'f_reply'          => "Fast reply",
+
+'getnew_title'      => "Messages sice you last visited",
+'all_read_link'     => "Read all",
+
+'subscr_not'        => "<center><b>you dont have Subscrition on any topic.</b></center>",
+
+'search_result'     => "Search result",
+'search_topic'      => "The search did not return any results. <a href='javascript:history.go(-1)'>go back</a>",
+
+'report_send'     => "report was successfully send. <a href=\"{link}\">go back</a>",
+
+'mail_send'        => "mail was successfully send <a href=\"{link}\">go back</a>",
+
+'title_forward'    => "Send mail to friend",
+
+'edit_info'        => "Message was edited by",
+
+'err_name'         => "<Li>Check spelling entered name!</Li>",
+'err_mail'         => "<Li>Check spelling entered e-mail!</Li>",
+
+'h_post'           => "<b>Message hiden</b>",
+
+'bb_t_apply' => "Edit",
+'bb_t_cancel' => "Cancel",
+
+'flood_stop'       => "Flood protection is active, write your message in {time} seconds. <a href='javascript:history.go(-1)'>go back</a>",
+'discuss_no_cat' => " choise forum for this category of news. <a href=\"javascript:history.go(-1)\">go back</a>",
+'discuss_off'    => "This function is turned of. to create forum login forum. <a href=\"javascript:history.go(-1)\">go back</a>",
+// add for 2.3 //
+
+'captcha_stop' => "Security code does not match the display! <a href=\"javascript:history.go(-1)\">Вернуться назад</a>",
+'maxlen_stop'  => "The length of the message exceeds the limit! <a href=\"javascript:history.go(-1)\">Вернуться назад</a>",
+'ajax_stop_1'  => "He was activated flood control!",
+'ajax_stop_2'  => "Security code does not match the display!",
+'ajax_stop_3'  => "Заполните все необходимые поля!",
+'ajax_stop_4'  => "The length of the message exceeds the limit!",
+'topic_last_p' => "By the last report:",
+'last_visit'   => "<b>Since returning, the last time you were here</b>",
+'reg_name'     => "<br />Registered to ",
+
+// add for 2.4 //
+
+'moderators' => "Moderators:",
+'spoiler_title' => "Show / Hide text",
+'i_quote' => "Quote:",
+
+// add for 2.6 //
+
+'fs_redirect' => "Redirection",
+'app_topic_edit' => "Modification of topics",
+'app_move_topic' => "Subject movement",
+'app_posts' => "Messages",
+'warn_cause_enter' => "Enter a reason:",
+'warn_type_1' => "Warnings",
+'warn_type_2' => "Read-only mode",
+'warn_type_3' => "Forbid",
+'warn_time_1' => "Day",
+'warn_time_2' => "Week",
+'warn_time_3' => "Month",
+'warn_rm_info' => "User is in read-only mode at:",
+'read_mode_ndeny' => "You are not allowed to post messages and topics before: {time}. <a href=\"javascript:history.go(-1)\">Back</a>",
+'ajax_stop_5' => "You are not allowed to post messages and topics before: ",
+'js_error_b' => "Error",
+'mail_title' => "Email notification of replies to this topic",
+'app_edit_post' => "Modify message",
+'user_no_topics' => "Topics not found. <a href=\"javascript:history.go(-1)\">Back</a>",
+'user_no_posts' => "Messages found. <a href=\"javascript:history.go(-1)\">Back</a>",
+
+'err_move' => "You are trying to move the first message, or, you have selected no message(s) to move <a href=\"javascript:history.go(-1)\">Back</a>",
+'err_combining' => "You are trying to merge the first message, or, you have selected no message(s) to merge <a href=\"javascript:history.go(-1)\">Back</a>",
+'err_del' => "You are trying to delete the first message, or, you have selected no message(s) to delete <a href=\"javascript:history.go(-1)\">Back</a>",
+'err_hidden' => "You are trying to hide the first message, or, you have selected no message(s) to hide <a href=\"javascript:history.go(-1)\">Back</a>",
+'err_unhidden' => "You are trying to post the first message, or, you have selected no message(s) to post <a href=\"javascript:history.go(-1)\">Back</a>",
+'err_open_topic' => "You have selected no topic(s) to open <a href=\"javascript:history.go(-1)\">Back</a>",
+'err_close_topic' => "You have selected no topic(s) to close <a href=\"javascript:history.go(-1)\">Back</a>",
+'err_del_topic' => "You have selected no topic(s) to delete <a href=\"javascript:history.go(-1)\">Back</a>",
+'err_title_topic' => "You have selected no topic(s) to change the title <a href=\"javascript:history.go(-1)\">Back</a>",
+'err_move_topic' => "You have selected no topic(s) to move <a href=\"javascript:history.go(-1)\">Back</a>",
+'err_hidden_topic' => "You have selected no topic(s) to hide <a href=\"javascript:history.go(-1)\">Back</a>",
+'err_unhidden_topic' => "You have selected no topic(s) to publish <a href=\"javascript:history.go(-1)\">Back</a>",
+'err_fixed_topic' => "You have selected no topic(s) to pin <a href=\"javascript:history.go(-1)\">Back</a>",
+'err_unfixed_topic' => "You have selected no topic(s) to unpin <a href=\"javascript:history.go(-1)\">Back</a>",
+
+
+'app_move_post' => "Move a message",
+'app_combining' => "Merge message",
+'app_hidden' => "Hide message",
+'app_unhidden' => "Post a message",
+'call_del' => "Delete a message",
+'app_hidden_topic' => "Hide a subject",
+'app_unhidden_topic' => "Post a topic",
+'app_fixed_topic' => "Pin a subject",
+'app_unfixed_topic' => "Unpingling a subject",
+'app_del_topic' => "Delete topic",
+'app_close_topic' => "Close a topic",
+'app_open_topic' => "Open a topic",
+
+);
+
+?>

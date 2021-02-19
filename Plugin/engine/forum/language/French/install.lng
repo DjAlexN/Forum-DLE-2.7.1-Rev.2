@@ -1,0 +1,88 @@
+<?php
+/*=====================================================
+ DLE Forum 2.7.1 rev2
+-----------------------------------------------------
+ Author: Dj_AlexN & DarkLane
+-----------------------------------------------------
+ http://novak-studio.pl/
+https://www.templatedlefr.fr/
+-----------------------------------------------------
+ Copyright (c) 2015,2021 NOVAK Studio
+=====================================================
+ Copyright (c) 2020,2021 TemplateDleFr
+=====================================================
+*/
+
+$f_install = array(
+
+'mtinstall_05'       => "Gestion du module Dle-Forum 2.7.1",
+'mtinstall_06'       => "Bonjour, {%username_to%}!\r\n\r\n%username_from%}, Une réponse à été écrite suite à votre abonnemnt à ce sujet ( \"{%topic_name%}\" ).\r\nAdresse: {%topic_link%}\r\n\r\n------------------------------------------------\r\nPour vous désabonner de ce sujet, suivez ce lien: {%topic_link_del%}\r\n------------------------------------------------\r\nCordialement, Le Staff",
+'mtinstall_07'       => "Salut {%username_to%},\r\n\r\n C\'est {%username_from%}, viens jeter un coup d\'oeil sur ça !\r\n------------------------------------------------Texte------------------------------------------------\r\n{%text%}\r\n------------------------------------------------\r\nNotre site n\'est en aucune responsabilité vis-à-vis de ce message.\r\n\r\nCordialement, Le Staff",
+'mtinstall_08'       => "Vous avez reçu une plainte de {%username_from%}.\r\n\r\n------------------------------------------------ Plainte ------------------------------------------------\r\n{%text%}\r\n------------------------------------------------À propos de ce rapport-------------------------------\r\nSujet: {%topic_link%}\r\nMessage ID: {%post_id%}\r\n------------------------------------------------\r\nCordialement, Le Staff",
+'mtinstall_09'       => "Cher administrateur,\r\n\r\nUn nouveau sujet à été ajouté.\r\n------------------------------------------------À propos de cette discussion------------------------------------------------\r\nAuteur: {%username%}rnDate: {%date%}\r\nTitre : {%title%}\r\nLien: {%link%}\r\n\r\nCordialement, Le Staff",
+'mtinstall_10'       => "Catégorie",
+'mtinstall_11'       => "Forum",
+'mtinstall_12'       => "Bienvenue sur votre forum",
+'mtinstall_13'       => "Bienvenue à votre nouveau forum DLE !  Si vous avez des questions ou des suggestions, n&#039;hésitez pas à contacter le forum de soutien.",
+'mtinstall_14'       => "Bienvenue sur votre forum",
+'mtinstall_15'       => "Bienvenue sur votre nouveau DLE Forum!<br /><br />Pour toute question ou suggestion, veuillez contacter <a href=\"https://www.templatedlefr.fr/forum/categories/17-script-dle-forum/\" target=\"_blank\">support forum</a>.<br /><br />La section créée, le forum et ce post sont testés, vous pouvez les supprimer à tout moment.<br /><br /><b>Respectueusement,<br /><br /><a href=\"https://www.templatedlefr.fr/\" target=\"_blank\">TemplateDleFr</a></b>",
+'mtforum_00'       => "Novice",
+'mtforum_01'       => "Nouveau membre",
+'mtforum_02'       => "Membre actif",
+'faq_categ1'       => "Informations concernant les utilisateurs",
+'faq_categ2'       => "Préférences et réglages des utilisateurs",
+'faq_categ3'       => "Problèmes de publication",
+'faq_categ4'       => "Mise en forme et types de sujets",
+'faq_item1'       => "Pourquoi ne puis-je pas me connecter?",
+'faq_item2'       => "Il y a plusieurs raisons qui peuvent en être la cause. Premièrement, assurez-vous que votre nom d’utilisateur et votre mot de passe soient corrects. S’ils le sont, contactez le propriétaire du forum afin de vous assurer de ne pas avoir été banni. Il est également possible que le propriétaire du site internet ait une erreur de configuration de son côté et qu’il soit nécessaire de la corriger.",
+'faq_item3'       => "Pourquoi ai-je besoin de m’inscrire, après tout?",
+'faq_item4'       => "Vous pouvez ne pas le faire, il appartient à l’administrateur du forum d’exiger ou non que vous soyez inscrit afin de pouvoir publier des messages. Cependant, l’inscription vous donnera accès à des fonctionnalités supplémentaires qui ne sont pas disponibles aux visiteurs, comme les avatars personnalisés, la messagerie privée, l’envoi de courriels aux autres utilisateurs, l’adhésion à un groupe d’utilisateurs, etc. Ceci ne vous prend qu’un court instant et nous vous recommandons par conséquent de le faire.",
+'faq_item5'       => "Pourquoi suis-je déconnecté automatiquement?",
+'faq_item6'       => "Si vous ne cochez pas la case Me connecter automatiquement lors de votre connexion, vous ne resterez connecté au forum que pour une période prédéfinie. Ceci permet d’éviter que votre compte soit utilisé par quelqu’un d’autre. Pour rester connecté, veuillez cocher la case correspondante lors de votre connexion. Ceci n’est pas recommandé si vous accédez au forum par l’intermédiaire d’un ordinateur public, comme par exemple dans une librairie, un cybercafé, une université, etc. Si vous n’arrivez pas à trouver cette case à cocher, il est probable qu’un administrateur ait désactivé cette fonctionnalité.",
+'faq_item7'       => "J’ai perdu mon mot de passe!",
+'faq_item8'       => "Pas de panique ! Bien que votre mot de passe ne puisse pas être récupéré, il peut facilement être réinitialisé. Rendez-vous sur la page de connexion et cliquez sur J’ai perdu mon mot de passe. Suivez les instructions et vous devriez être en mesure de pouvoir vous connecter de nouveau dans peu de temps.",
+'faq_item9'       => "Je suis inscrit mais ne peux pas me connecter!",
+'faq_item10'       => "Premièrement, vérifiez votre nom d’utilisateur et votre mot de passe. S’ils sont corrects, alors une des deux choses suivantes a pu s’être produite. Si le support de la COPPA est activé et que vous avez spécifié avoir en dessous de 13 ans pendant l’inscription, vous devrez suivre les instructions que vous avez reçues. Certains forums exigeront également que les nouvelles inscriptions doivent être activées, soit par vous-même ou soit par un administrateur, avant que vous puissiez ouvrir une session ; cette information était présente lors de votre inscription. Si vous aviez reçu un courriel, consultez les instructions. Si vous ne recevez pas de courriel, vous avez probablement spécifié une mauvaise adresse de courrier électronique ou le courriel a été filtré en tant que pourriel. Si vous êtes certain(e) que l’adresse de courrier électronique que vous avez spécifiée était correcte, essayez de contacter un administrateur.",
+'faq_item11'       => "Je m’étais déjà inscrit par le passé mais je ne peux à présent plus me connecte!",
+'faq_item12'       => "Il est possible qu’un administrateur ait désactivé ou supprimé votre compte pour une quelconque raison. De plus, beaucoup de forums suppriment périodiquement les utilisateurs qui n’ont rien publiés depuis un certain temps afin de réduire la taille de leur base de données. Si tel était le cas, inscrivez-vous à nouveau et essayez de participer plus activement aux discussions sur le forum.",
+'faq_item13'       => "Pourquoi ne puis-je pas m’inscrire?",
+'faq_item14'       => "Il est possible que le propriétaire du site internet ait banni votre adresse IP ou interdit le nom d’utilisateur que vous souhaitez utiliser. Le propriétaire du forum peut également avoir décidé de désactiver les inscriptions afin d’empêcher tous les nouveaux visiteurs de s’inscrire. Pour plus d’informations, veuillez contacter un administrateur du forum.",
+'faq_item15'       => "Comment puis-je modifier mes réglages?",
+'faq_item16'       => "Si vous êtes un utilisateur inscrit, tous vos réglages sont stockés dans la base de données du forum. Si vous souhaitez les modifier, rendez-vous sur votre panneau de contrôle de l’utilisateur ; ce lien se situe généralement en haut des pages du forum. Ce système vous permettra de modifier tous vos réglages et toutes vos préférences.",
+'faq_item17'       => "Quel est mon rang et comment puis-je le modifier?",
+'faq_item18'       => "Les rangs, qui apparaissent en dessous de votre nom d’utilisateur, indiquent le nombre de messages que vous avez à votre actif ou identifient certains utilisateurs spéciaux, comme les modérateurs et les administrateurs. Dans la plupart des cas, seul un administrateur du forum peut modifier le texte des rangs du forum. Merci de ne pas abuser de ce système en publiant inutilement des messages afin d’augmenter votre rang sur le forum. Beaucoup de forums ne toléreront pas ceci et un modérateur ou un administrateur abaissera votre compteur de messages.",
+'faq_item19'       => "Lorsque je clique sur le lien de courriel d’un utilisateur, il m’est demandé de me connecter?",
+'faq_item20'       => "Si l’administrateur a activé cette fonctionnalité, seuls les utilisateurs inscrits peuvent envoyer des courriels aux autres utilisateurs par l’intermédiaire d’un formulaire. Ceci permet d’empêcher une utilisation malveillante du système de messagerie électronique par des utilisateurs anonymes ou des robots.",
+
+'faq_item21'       => "Comment puis-je afficher un avatar à mon nom d’utilisateur?",
+'faq_item22'       => "Deux types d’images, visibles lors de la consultation de messages, peuvent être associés à votre nom d’utilisateur. L’un d’entre eux peut être une image associée à votre rang, généralement en forme d’étoiles, de carrés ou de ronds, qui indiquent le nombre de messages à votre actif ou votre statut sur le forum. L’autre type, habituellement une image plus imposante, est connue sous le nom d’avatar et est généralement unique et personnelle à chaque utilisateur. C’est à l’administrateur du forum d’activer ou non les avatars et de décider de la manière dont ils sont mis à disposition. Si vous ne pouvez pas utiliser les avatars, contactez l’administrateur du forum et demandez-lui pour quelles raisons a t-il souhaité désactiver cette fonctionnalité.",
+'faq_item23'       => "Comment puis-je créer un sondage ?",
+'faq_item24'       => "Lorsque vous rédigez un nouveau sujet ou éditez le premier message d’un sujet, cliquez sur l’onglet « Création d’un sondage », situé en-dessous du formulaire principal de rédaction ; si cet onglet n’est pas disponible, il est probable que vous n’ayez pas les permissions appropriées afin de créer des sondages. Saisissez le titre du sondage en incluant au moins deux options dans les champs adéquats, chaque option devant être insérée sur une nouvelle ligne. Vous pouvez régler le nombre d’options que les utilisateurs peuvent insérer en sélectionnant, lors du vote, le réglage des « Options par utilisateur ». Vous pouvez également spécifier une limite de temps en jours, puis enfin autoriser ou non les utilisateurs à modifier leurs votes.",
+'faq_item25'       => "Pourquoi ne puis-je pas ajouter plus d’options à un sondage ?",
+'faq_item26'       => "La limite d’options d’un sondage est réglée par l’administrateur du forum. Si le nombre d’options que vous pouvez ajouter à un sondage vous semble trop restreint, demandez à un administrateur du forum s’il est possible de l’augmenter.",
+'faq_item27'       => "Comment puis-je publier un sujet dans un forum ?",
+'faq_item28'       => "Pour publier un nouveau sujet dans un forum, cliquez sur le bouton adéquat situé sur l’écran du forum ou du sujet. Il se peut que vous ayez besoin d’être inscrit avant de pouvoir rédiger un message. Sur chaque forum, une liste de vos permissions est affichée en bas de l’écran du forum ou du sujet. Par exemple : vous pouvez publier de nouveaux sujets, vous pouvez voter dans les sondages, etc.",
+'faq_item29'       => "Comment puis-je éditer ou supprimer un message ?",
+'faq_item30'       => "À moins que vous ne soyez un administrateur ou un modérateur du forum, vous ne pouvez éditer ou supprimer que vos propres messages. Vous pouvez éditer un de vos messages en cliquant le bouton adéquat, parfois dans une limite de temps après que le message initial ait été publié. Si quelqu’un a déjà répondu au message, un petit texte situé en dessous du message énumèrera le nombre de fois que vous l’avez édité, contenant la date et l’heure de l’édition. Ce petit texte n’apparaîtra pas s’il s’agit d’une édition effectuée par un modérateur ou un administrateur, bien qu’ils puissent prendre l’initiative de rédiger une note discrète exprimant la raison de leur édition. Veuillez noter que les utilisateurs normaux ne peuvent pas supprimer leur propre message si une réponse a été publiée.",
+'faq_item31'       => "Comment puis-je ajouter une signature à un message ?",
+'faq_item32'       => "Pour ajouter une signature à un message, vous devez tout d’abord en créer une par l’intermédiaire de votre panneau de contrôle de l’utilisateur. Une fois créée, vous pouvez cocher la case Insérer une signature sur le formulaire de rédaction afin d’insérer votre signature. Vous pouvez également ajouter une signature qui sera insérée à tous vos messages en cochant la case appropriée dans votre profil. Si vous choisissez cette dernière option, il ne vous sera plus utile de spécifier sur chaque message votre souhait d’insérer votre signature.",
+'faq_item33'       => "Qu’est-ce que le BBCode ?",
+'faq_item34'       => "Le BBCode est une implémentation spéciale de l’HTML, vous offrant un meilleur contrôle sur la mise en forme d’un message. L’utilisation du BBCode est déterminée par l’administrateur mais il vous est également possible de la désactiver sur chaque message depuis le formulaire de rédaction. Le BBCode est similaire à l’architecture de l’HTML, les balises sont contenues entre des crochets [ et ] à la place de < et >. Pour plus d’informations à propos du BBCode, veuillez consulter le guide qui est accessible depuis la page de rédaction.",
+'faq_item35'       => "Que sont les émoticônes ?",
+'faq_item36'       => "Les émoticônes sont de petites images qui peuvent être utilisées grâce à l’utilisation d’un code court et qui permettent d’exprimer des sentiments. Par exemple, « :) » exprime la joie alors qu’au contraire « :( » exprime la tristesse. Vous pouvez consulter la liste complète des émoticônes depuis le formulaire de rédaction. Essayez cependant de ne pas abuser des émoticônes, elles peuvent rapidement rendre un message illisible et un modérateur pourrait décider de l’éditer ou de le supprimer complètement. L’administrateur du forum peut également limiter le nombre d’émoticônes qui peuvent être insérées dans un message.",
+'faq_item37'       => "Puis-je insérer des images ?",
+'faq_item38'       => "Oui, vous pouvez insérer des images dans vos messages. Si l’administrateur du forum a autorisé l’insertion de pièces jointes, vous pourrez transférer des images sur le forum. Dans le cas contraire, vous devrez insérer un lien pointant vers une image stockée sur un serveur internet public, comme http://www.exemple.com/mon-image.gif. Vous ne pourrez cependant ni insérer de lien pointant vers des images stockées sur votre propre ordinateur (à moins, bien évidemment, que celui-ci soit en lui-même un serveur internet) ni insérer de lien pointant vers des images stockées derrière un quelconque système d’authentification, comme par exemple les services de messagerie électronique de Hotmail ou de Yahoo, les sites protégés par un mot de passe, etc. Pour insérer une image, utilisez la balise BBCode [img].",
+'faq_item39'       => "Que sont les annonces globales ?",
+'faq_item40'       => "Les annonces globales contiennent des informations très importantes et vous devriez les consulter le plus rapidement possible. Elles apparaissent en haut de chaque forum et dans votre panneau de contrôle de l’utilisateur. Les permissions concernant les annonces globales sont définies par l’administrateur du forum.",
+'faq_item41'       => "Que sont les annonces ?",
+'faq_item42'       => "Les annonces contiennent souvent des informations importantes sur le forum dans lequel vous naviguez et vous devriez les consulter le plus rapidement possible. Les annonces apparaissent en haut de chaque page du forum dans lequel elles ont été publiées. Tout comme les annonces globales, les permissions concernant les annonces sont définies par l’administrateur du forum.",
+'faq_item43'       => "Que sont les notes ?",
+'faq_item44'       => "Les notes apparaissent en dessous des annonces et seulement sur la première page du forum concerné. Elles sont souvent assez importantes et il est recommandé de les consulter dès que vous en avez la possibilité. Tout comme les annonces et les annonces globales, les permissions concernant les notes sont définies par l’administrateur du forum.",
+'faq_item45'       => "Que sont les sujets verrouillés ?",
+'faq_item46'       => "Les sujets verrouillés sont des sujets dans lesquels les utilisateurs ne peuvent plus répondre et dans lesquels les sondages sont automatiquement expirés. Les sujets peuvent être verrouillés pour de nombreuses raisons par un modérateur ou un administrateur du forum. Vous pouvez également verrouiller vos propres sujets si l’administrateur en a décidé ainsi.",
+'faq_item47'       => "Que sont les icônes de sujet ?",
+'faq_item48'       => "Les icônes de sujet sont de petites images que l’auteur peut insérer afin d’illustrer le contenu de son sujet. L’administrateur du forum peut ne pas avoir activé cette fonctionnalité.",
+
+);
+
+?>

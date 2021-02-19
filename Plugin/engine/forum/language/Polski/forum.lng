@@ -1,0 +1,256 @@
+<?php
+/*=====================================================
+ DLE Forum 2.7.1 rev2
+-----------------------------------------------------
+ Author: Dj_AlexN & DarkLane
+-----------------------------------------------------
+ http://novak-studio.pl/
+https://www.templatedlefr.fr/
+-----------------------------------------------------
+ Copyright (c) 2015,2021 NOVAK Studio
+=====================================================
+ Copyright (c) 2020,2021 TemplateDleFr
+=====================================================
+*/
+
+$f_lang = array(
+
+/*2.7.1 rev2*/
+'fs_new' => "Forum zamknięte, Pojawiły się nowe posty",
+'fs_nonew' => "Forum zamknięte, brak nowych postów",
+'last_post_new' => "<img src='{THEME}/forum/images/icon_topic_newest.gif' title='Nowy post' border='0' style='margin-bottom:-6px;' /> przez",
+
+/*2.7.1 rev1*/
+'post_maxlen' 			=> "Długość wiadomości jest większa niż dozwolony limit!",
+'topic_option' 			=> "Edytuj tytuł",
+'topic_option1' 		=> "Przenieś temat",
+'topic_option2' 		=> "Rozwiązane",
+'topic_option3' 		=> "Otwórz temat",
+'topic_option4' 		=> "Zablokuj temat",
+'topic_option5' 		=> "Odblokuj temat",
+'topic_option6' 		=> "Ukryj temat",
+'topic_option7' 		=> "Opublikuj temat",
+'topic_option8' 		=> "Usuń temat",
+'topic_option9' 		=> "Dodatkowe informacje",
+'topic_option10' 		=> "Usuń temat",
+'posts_option' 			=> "Posty",
+'posts_option1' 		=> "Scalono",
+'posts_option2' 		=> "Przenieś",
+'posts_option3' 		=> "Wysłana wiadomość",
+'posts_option4' 		=> "Ukryj wiadomość",
+'posts_option5' 		=> "Usuń wiadomość",
+
+
+
+'hide_info' 			=> "Uwaga! Nie masz uprawnień do wyświetlania ukrytego tekstu.",
+'hide_info_' 			=> "posty są wymagane.",
+'f_password' 			=> "Hasło",
+'f_display' 			=> "Pokaż",
+'f_hide' 				=> "Ukryj",
+'f_topic_close' 		=> "Temat zamknięty",
+'f_quick_reply' 		=> "Szybka odpowiedź",
+'f_submit' 				=> "Zatwierdź",
+'f_all' 				=> "Wszystkie",
+'f_unsubscribe' 		=> "Wypisz się",
+'f_upload_file' 		=> "Wgraj Pliki",
+'f_file' 				=> "Plik",
+'f_file2' 				=> "przesłane",
+'f_file3' 				=> "Wgraj",
+'f_file_error' 			=> "Nie można wgrać pliku na serwer!",
+'f_img_error' 			=> "Obraz za duży!",
+'f_img_error2' 			=> "Nieprawidłowy format pliku!",
+'f_upload_error' 		=> "Maksymalny dozwolony rozmiar pliku:",
+'f_upload_files' 		=> "Wgrane Pliki",
+'f_upload_author' 		=> "Autor",
+'f_file_delete' 		=> "Usuń",
+'f_no_upload_files' 	=> "Żadne pliki nie zostały wgrane",
+'f_no_icon' 			=> "Brak ikony",
+'f_upload_files2' 		=> "Przesyłanie plików i obrazów na serwer",
+'ajax_stop_6' 			=> "Podczas pisania odpowiedzi została opublikowana co najmniej jedna nowa wiadomość",
+'Post revision' 		=> 'UWAGA - Nowa odpowiedź',
+'Post revision info' 	=> 'Podczas pisania została opublikowana co najmniej jedna nowa wiadomość. Przeczytaj ją poniżej przed przesłaniem wiadomości',
+'f_rep_m' 				=> 'Usuń punkty reputacji',
+'f_rep_p' 				=> "Dodaj punkty reputacji",
+
+// add for 2.6.3 //
+'f_users_guest' 		=> "Gość",
+'f_whoonline' 			=> "Kto jest online",
+'view_index' 			=> "Można znaleźć w indeksie forum",
+'add_post' 				=> "Opublikuj nowy temat",
+'view_online' 			=> "Wyświetl listę połączonych użytkowników",
+'f_viewtopic' 			=> "Spójrz na temat:",
+'f_viewforum' 			=> "Zobacz forum:",
+'f_search' 				=> "Przeprowadź wyszukiwanie",
+'f_getnew' 				=> "Sprawdź nowe posty",
+'f_subscription' 		=> "Spójrz na jego subskrypcje",
+'f_rss' 				=> "Oglądaj kanał RSS forum",
+'f_moderation' 			=> "Przeprowadza moderację forum",
+'f_topic'	 			=> "Jest gdzieś",
+
+'f_msg'      			=> "Wiadomość z forum",
+'f_404'      			=> "Reference, is «dead» or deleted. <a href=\"javascript:history.go(-1)\">Wróć</a>",
+'page_deny'  			=> "Członkowie grupy <b>{user_group}</b>, nie mogą wyświetlić tej strony.",
+
+'all_info'    			=> "Informacja",
+
+'values_error'  		=> "Wszystkie pola są wymagane! Nie wysłałeś wiadomości. <a href=\"javascript:history.go(-1)\">Wróć</a>",
+
+'subforums'  			=> " - subfora",
+
+'forum_read' 			=> "Członkowie grupy <b>{user_group}</b>, nie mogą przeglądać tego forum.",
+'topic_read' 			=> "Członkowie grupy <b>{user_group}</b>, nie mogą wyświetlić tego tematu.",
+'topic_write' 			=> "Członkowie grupy <b>{user_group}</b>, nie mogą pisać postów na tym forum.",
+'forum_down' 			=> "Członkowie grupy <b>{user_group}</b>, nie mogą pobierać plików na tym forum.",
+
+'is_topics'  			=> "<center><b>Nie znaleziono. Możliwe, że na tym forum nie ma żadnego tematu lub są one zbyt stare i zostały usunięte.</b></center>",
+
+'search_nresult' 		=> "Wyszukiwanie nie przyniosło żadnych wyników. <a href=\"javascript:history.go(-1)\">szukać ponownie?</a>",
+'search_error' 			=> "Wpisałeś mniej niż 4 znaki ! <a href=\"javascript:history.go(-1)\">szukać ponownie?</a>",
+
+'topic_yes'    			=> "Z odpowiedziami",
+'topic_no'     			=> "Bez odpowiedzi",
+'topic_closed' 			=> "Temat zamknięty",
+'last_post'    			=> "<img src='{THEME}/forum/images/icon_topic_latest.gif' title='Poprzedni post' border='0' style='margin-bottom:-6px;' /> przez",
+
+'mtf_op'       			=> "Opcje",
+'mtf_01'       			=> " - Otwórz",
+'mtf_02'      		 	=> " - Zamknij",
+'mtf_03'       			=> " - Usuń",
+'mtf_05'       			=> " - Przenieś",
+'mtf_06'       			=> " - Ukryj",
+'mtf_07'       			=> " - Opublikuj",
+'mtf_08'       			=> " - Przypnij",
+'mtf_09'       			=> " - Odepnij",
+
+'time_heute'			=>	"Dzisiaj",
+'time_gestern'			=>	"Wczoraj",
+
+'fs_new'     			=> "Są nowe wiadomości",
+'fs_nonew'   			=> "Nie ma nowych wiadomości",
+
+'fl_topic'   			=> "<br /><b>Temat:</b>",
+'fl_author'  			=> "<br /><b>Autor:</b>",
+'fl_nopost'  			=> "Brak wiadomości",
+'fl_c_forum' 			=> "<i>Zamknięte forum</i>",
+
+'err_mail'    			=> "Adres e-mail jest niepoprawny!",
+'err_name'    			=> "Podałeś nazwę zarejestrowanego użytkownika. Jeśli jesteś tym użytkownikiem, musisz się najpierw zalogować.",
+
+'topic_add_stop'    	=> "Wypełnij wszystkie wymagane pola! Nie wskazałeś tytułu lub nie umieściłeś wiadomości <a href=\"javascript:history.go(-1)\">Wróć</a>",
+'topic_add_ndeny'   	=> "Członkowie grupy <b>{user_group}</b>, nie mogą otwierać tematów na tym forum.",
+
+'app_warn'          	=> "Ostrzeżenia",
+'app_rep'           	=> "Reputacja",
+'app_subscr'        	=> "Subskrypcja",
+'app_getnew'        	=> "Nowe Wiadomości",
+'app_newtopic'      	=> "Nowe Tematy",
+'app_reply'         	=> "Odpowiedz",
+'app_user_topic'    	=> "Tematy użytkownika",
+'app_post_edit'     	=> "Edytuj wiadomość",
+'app_search'        	=> "Szukaj",
+
+'search_result'     	=> "Wynik wyszukiwania",
+
+'u_log_empty'       	=> "<hr><center><b>Magazyn użytkownika jest pusty.</b></center>",
+
+'f_reply'          		=> "Szybka odpowiedź",
+
+'getnew_title'      	=> "Wiadomości od Twojej ostatniej wizyty",
+'all_read_link'     	=> "Czytaj wszystko",
+
+'subscr_not'       	 	=> "<center><b>nie masz subskrypcji na żaden temat.</b></center>",
+
+'search_result'     	=> "Wynik wyszukiwania",
+'search_topic'      	=> "Wyszukiwanie nie przyniosło żadnych wyników. <a href='javascript:history.go(-1)'>Wróć</a>",
+
+'report_send'     		=> "Raport został pomyślnie wysłany. <a href=\"{link}\">Wróć</a>",
+
+'mail_send'        		=> "Meil został pomyślnie wysłany <a href=\"{link}\">Wróć</a>",
+
+'title_forward'    		=> "Wyślij meil do znajomego",
+
+'edit_info'        		=> "Wiadomość została zredagowana przez",
+
+'err_name'         		=> "<Li>Sprawdź pisownię wpisanej nazwy!</Li>",
+'err_mail'         		=> "<Li>Sprawdź pisownię wpisanego e-maila!</Li>",
+
+'h_post'           		=> "<b>Wiadomość ukryta</b>",
+
+'bb_t_apply' 			=> "Edytuj",
+'bb_t_cancel' 			=> "Anuluj",
+
+'flood_stop'       		=> "Ochrona antyspamowa jest aktywna, napisz wiadomość za {time} sekund. <a href='javascript:history.go(-1)'>Wróć</a>",
+'discuss_no_cat' 		=> "Wybór forum dla tej kategorii wiadomości <a href=\"javascript:history.go(-1)\">Wróć</a>",
+'discuss_off'    		=> "Ta funkcja jest wyłączona, aby utworzyć forum zaloguj się do forum. <a href=\"javascript:history.go(-1)\">Wróć</a>",
+// add for 2.3 //
+
+'captcha_stop' 			=> "Kod bezpieczeństwa nie pasuje do wyświetlanego! <a href=\"javascript:history.go(-1)\">Wróć</a>",
+'maxlen_stop'  			=> "Długość wiadomości przekracza limit! <a href=\"javascript:history.go(-1)\">Wróć</a>",
+'ajax_stop_1'  			=> "Został aktywowany antyspam!",
+'ajax_stop_2'  			=> "Kod bezpieczeństwa nie pasuje do wyświetlanego!",
+'ajax_stop_3'  			=> "Wypełnij wszystkie niezbędne pola!",
+'ajax_stop_4'  			=> "Długość wiadomości przekracza limit!",
+'topic_last_p' 			=> "Do ostatniego raportu:",
+'last_visit'   			=> "<b>Od powrotu, kiedy ostatnio tu byłeś</b>",
+'reg_name'     			=> "<br />Zarejestrowany na ",
+
+// add for 2.4 //
+
+'moderators' 			=> "Moderatorzy:",
+'spoiler_title' 		=> "Pokaż / Ukryj tekst",
+'i_quote' 				=> "Cytat:",
+
+// add for 2.6 //
+
+'fs_redirect' 			=> "Przekierowanie",
+'app_topic_edit' 		=> "Modyfikacja tematów",
+'app_move_topic' 		=> "Przeniesienie tematów",
+'app_posts' 			=> "Wiadomości",
+'warn_cause_enter' 		=> "Podaj powód:",
+'warn_type_1' 			=> "Ostrzeżenia",
+'warn_type_2' 			=> "Tryb tylko do odczytu",
+'warn_type_3' 			=> "Zabroń",
+'warn_time_1' 			=> "Dzień",
+'warn_time_2' 			=> "Tydzień",
+'warn_time_3' 			=> "Miesiąc",
+'warn_rm_info' 			=> "Użytkownik jest w trybie tylko do odczytu o godzinie:",
+'read_mode_ndeny' 		=> "Nie możesz wcześniej publikować wiadomości i tematów: {time}. <a href=\"javascript:history.go(-1)\">Wróć</a>",
+'ajax_stop_5' 			=> "Nie możesz wcześniej publikować wiadomości i tematów: ",
+'js_error_b' 			=> "Błąd",
+'mail_title' 			=> "Powiadomienie e-mail o odpowiedziach na ten temat",
+'app_edit_post' 		=> "Zmodyfikuj wiadomość",
+'user_no_topics' 		=> "Nie znaleziono tematów. <a href=\"javascript:history.go(-1)\">Wróć</a>",
+'user_no_posts' 		=> "Znaleziono wiadomości.<a href=\"javascript:history.go(-1)\">Wróć</a>",
+
+'err_move' 				=> "Próbujesz przenieść pierwszą wiadomość lub nie wybrałeś żadnych wiadomości do przeniesienia <a href=\"javascript:history.go(-1)\">Wróć</a>",
+'err_combining' 		=> "Próbujesz scalić pierwszą wiadomość lub nie wybrałeś żadnych wiadomości do scalenia <a href=\"javascript:history.go(-1)\">Wróć</a>",
+'err_del' 				=> "Próbujesz usunąć pierwszą wiadomość lub nie wybrałeś żadnych wiadomości do usunięcia <a href=\"javascript:history.go(-1)\">Wróć</a>",
+'err_hidden' 			=> "Próbujesz ukryć pierwszą wiadomość lub nie wybrałeś żadnych wiadomości do ukrycia <a href=\"javascript:history.go(-1)\">Wróć</a>",
+'err_unhidden' 			=> "Próbujesz opublikować pierwszą wiadomość lub nie wybrałeś żadnych wiadomości do opublikowania <a href=\"javascript:history.go(-1)\">Wróć</a>",
+'err_open_topic' 		=> "Nie wybrałeś żadnych tematów do otwarcia <a href=\"javascript:history.go(-1)\">Wróć</a>",
+'err_close_topic' 		=> "Nie wybrałeś żadnych tematów do zamknięcia <a href=\"javascript:history.go(-1)\">Wróć</a>",
+'err_del_topic' 		=> "Nie wybrałeś żadnych tematów do usunięcia <a href=\"javascript:history.go(-1)\">Wróć</a>",
+'err_title_topic' 		=> "Nie wybrałeś żadnych tematów do zmiany the title <a href=\"javascript:history.go(-1)\">Wróć</a>",
+'err_move_topic' 		=> "Nie wybrałeś żadnych tematów do przeniesienia <a href=\"javascript:history.go(-1)\">Wróć</a>",
+'err_hidden_topic' 		=> "Nie wybrałeś żadnych tematów do ukrycia <a href=\"javascript:history.go(-1)\">Wróć</a>",
+'err_unhidden_topic' 	=> "Nie wybrałeś żadnych tematów do opublikowania <a href=\"javascript:history.go(-1)\">Wróć</a>",
+'err_fixed_topic' 		=> "Nie wybrałeś żadnych tematów do przypięcia <a href=\"javascript:history.go(-1)\">Wróć</a>",
+'err_unfixed_topic' 	=> "Nie wybrałeś żadnych tematów do odpięcia <a href=\"javascript:history.go(-1)\">Wróć</a>",
+
+
+'app_move_post' 		=> "Przenieś wiadomość",
+'app_combining' 		=> "Połącz wiadomość",
+'app_hidden' 			=> "Ukryj wiadomość",
+'app_unhidden' 			=> "Opublikuj wiadomość",
+'call_del' 				=> "Usuń wiadomość",
+'app_hidden_topic' 		=> "Ukryj temat",
+'app_unhidden_topic' 	=> "Opublikuj temat",
+'app_fixed_topic' 		=> "Przypnij temat",
+'app_unfixed_topic' 	=> "Odepnięcie tematu",
+'app_del_topic' 		=> "Usuń temat",
+'app_close_topic' 		=> "Zamknij temat",
+'app_open_topic' 		=> "Otwórz temat",
+
+);
+
+?>

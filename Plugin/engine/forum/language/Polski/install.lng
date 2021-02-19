@@ -1,0 +1,87 @@
+<?php
+/*=====================================================
+ DLE Forum 2.7.1 rev2
+-----------------------------------------------------
+ Author: Dj_AlexN & DarkLane
+-----------------------------------------------------
+ http://novak-studio.pl/
+https://www.templatedlefr.fr/
+-----------------------------------------------------
+ Copyright (c) 2015,2021 NOVAK Studio
+=====================================================
+ Copyright (c) 2020,2021 TemplateDleFr
+=====================================================
+*/
+
+$f_install = array(
+
+'mtinstall_05' => "Zarządzanie modułem Dle-Forum 2.7.1",
+'mtinstall_06' => "Witaj, {%username_to%}! \r\n\r\n{%username_from%}, Odpowiedź została napisana po Twojej subskrypcji na ten temat (\"{%topic_name%}\") . \r\nAdres: {%topic_link%}\r\n\r\n ------------------------------- ----------------- \r\nAby anulować subskrypcję tego tematu, kliknij ten link: {%topic_link_del%} \r\n ---------- -------------------------------------- \r\nZ poważaniem, Personel",
+'mtinstall_07' => "Cześć % username_to%}, \r\n\r\n To {%username_from%}, przyjrzyj się temu! \r\n ---- --------------------------------------------Tekst----- ------------------------------------------- \r\n {% text %} \r\n -------------------------------------------- ---- \r\nNasza witryna nie bierze odpowiedzialności za tę wiadomość. \r\n\r\nZ poważaniem, Administracja",
+'mtinstall_08' => "Otrzymałeś skargę od {%username_from%}. \r\n\r\n ------------------------ ------------------------ Skarga ------------------------- ----------------------- \r\n{%text%}\r\n -------------- ---------------------------------- O raporcie ----------- -------------------- \r\n Temat: {%topic_link%} \r\n Identyfikator wiadomości: {%post_id%}\r\n ----- ------------------------------------------- \r\nZ poważaniem, Administracja",
+'mtinstall_09' => "Drogi administratorze, \r\n\r\ nDodano nowy temat. \r\n ----------------------- ------------------------- O tej dyskusji -------------------- ----------------------------\r\nAutor: {%username%} rnData: {%date%} \r\nTytuł: {%title%} \r\nLink: {%link%} \r\n\ r\n Pozdrawiam, Personel ",
+'mtinstall_10' => "Kategoria",
+'mtinstall_11' => "Forum",
+'mtinstall_12' => "Witamy na twoim forum",
+'mtinstall_13' => "Witamy na nowym forum DLE! Jeśli masz jakieś pytania lub sugestie, nie wahaj się skontaktować z forum pomocy.",
+'mtinstall_14' => "Witamy na twoim forum",
+'mtinstall_15' => "Witamy na nowym forum DLE! <br /><br /> W przypadku jakichkolwiek pytań lub sugestii prosimy o kontakt z <a href=\" https://novak-studio.pl\" target=\"_ blank\"> forum pomocy </a>. <br /><br /> Utworzona sekcja, forum i ten post są testowane, możesz je w ogóle usunąć moment. <br /> <br /> <b> Z poważaniem, <br /> <br /> <a href=\"https://novak-studio.pl/\" target=\"_blank\"> NOVAK Studio </a> </b> ",
+'mtforum_01' => "Nowy członek",
+'mtforum_02' => "Aktywny członek",
+'faq_categ1' => "Informacje o użytkowniku",
+'faq_categ2' => "Preferencje i ustawienia użytkownika",
+'faq_categ3' => "Problemy z publikacją",
+'faq_categ4' => "Formatowanie i typy tematów",
+'faq_item1' => "Dlaczego nie mogę się zalogować?",
+'faq_item2' => "Istnieje kilka powodów, które mogą to spowodować. Po pierwsze, upewnij się, że Twoja nazwa użytkownika i hasło są poprawne. Jeśli są, skontaktuj się z właścicielem forum, aby upewnić się, że nie zostałeś zbanowany. Możliwe jest również, że właściciel strony internetowej może mieć po swojej stronie błąd w konfiguracji i konieczna może być jego korekta",
+'faq_item3' => "Dlaczego mimo wszystko muszę się zarejestrować?",
+'faq_item4' => "Nie możesz, to do administratora forum należy decyzja, czy wymagać rejestracji w celu wysyłania wiadomości. Jednakże, rejestracja da Ci dostęp do dodatkowych funkcji, które nie są dostępne dla odwiedzających, takich jak niestandardowe awatary, prywatne wiadomości, wysyłanie wiadomości e-mail do innych użytkowników, członkostwo w grupie użytkowników, itp. Zajmuje to tylko chwilę i dlatego zalecamy, abyś to zrobił",
+'faq_item5' => "Dlaczego jestem automatycznie wylogowany",
+'faq_item6' => "Jeśli nie zaznaczysz opcji Zaloguj mnie automatycznie podczas logowania, będziesz zalogowany na forum tylko przez określony czas. Zapobiega to wykorzystywaniu Twojego konta przez kogoś innego. Aby pozostać zalogowanym, należy zaznaczyć odpowiednie pole podczas logowania. Nie jest to zalecane w przypadku dostępu do forum przez komputer publiczny, np. w księgarni, kawiarni internetowej, na uczelni itp. Jeśli nie możesz znaleźć tego pola wyboru, prawdopodobnie administrator wyłączył tę funkcję",
+'faq_item7' => "Zgubiłem moje hasło!",
+'faq_item8' => "Nie panikuj! Chociaż nie można odzyskać hasła, można je łatwo zresetować. Przejdź do strony logowania i kliknij na \"Zgubiłem hasło\". Postępuj zgodnie z instrukcjami, a za chwilę będziesz mógł się ponownie zalogować",
+'faq_item9' => "Jestem zarejestrowany, ale nie mogę się zalogować",
+'faq_item10' => "Najpierw sprawdź swoją nazwę użytkownika i hasło. Jeśli mają rację, to może zdarzyć się jedna z dwóch rzeczy. Jeśli wsparcie COPPA jest włączone, a podczas rejestracji podałeś, że masz mniej niż 13 lat, będziesz musiał postępować zgodnie z otrzymanymi instrukcjami. Niektóre fora wymagają również aktywacji nowych rejestracji, samodzielnie lub przez administratora, zanim będziesz mógł się zalogować; informacje te były obecne w momencie rejestracji. Jeśli otrzymałeś wiadomość e-mail, zapoznaj się z instrukcją. Jeśli nie otrzymałeś e-maila, prawdopodobnie podałeś zły adres e-mail lub został on przefiltrowany jako spam. Jeśli jesteś pewien, że podany przez ciebie adres e-mail był prawidłowy, spróbuj skontaktować się z administratorem",
+'faq_item11' => "Zarejestrowałem się w przeszłości, ale teraz nie mogę się już zalogować!",
+'faq_item12' => "Możliwe, że administrator z jakiegoś powodu wyłączył lub usunął twoje konto. Ponadto, wiele forów okresowo usuwa użytkowników, którzy nie pisali przez jakiś czas, aby zmniejszyć rozmiar swojej bazy danych. Jeśli tak się stało, proszę zarejestrować się ponownie i spróbować bardziej aktywnie uczestniczyć w dyskusjach na forum",
+'faq_item13' => "Dlaczego nie mogę się zarejestrować?",
+'faq_item14' => "Możliwe, że właściciel strony internetowej zablokował Twój adres IP lub zabronił używania nazwy użytkownika, której chcesz użyć. Właściciel planszy mógł również zdecydować o wyłączeniu rejestracji, aby uniemożliwić wszystkim nowym odwiedzającym rejestrację. Aby uzyskać więcej informacji, prosimy o kontakt z administratorem forum",
+'faq_item15' => "Jak mogę zmienić ustawienia?",
+'faq_item16' => "Jeśli jesteś zarejestrowanym użytkownikiem, wszystkie twoje ustawienia są przechowywane w bazie danych forum. Jeśli chcesz je zmienić, przejdź do swojego Panelu użytkownika; ten link znajduje się zazwyczaj na górze stron forum. Pozwoli to na zmianę wszystkich ustawień i preferencji",
+'faq_item17' => "Jaka jest moja ranga i jak mogę ją zmienić?",
+'faq_item18' => "Rangi, które pojawiają się pod twoją nazwą użytkownika, wskazują liczbę postów, które wykonałeś lub identyfikują pewnych specjalnych użytkowników, takich jak moderatorzy i administratorzy. W większości przypadków tylko administrator forum może edytować tekst rangi forum. Proszę nie nadużywać tego systemu poprzez niepotrzebne publikowanie w celu zwiększenia swojej rangi na forum. Wiele forów nie będzie tego tolerować, a moderator lub administrator obniży twoją liczbę postów",
+'faq_item19' => "Kiedy kliknę na link e-mail użytkownika, zostaniesz poproszony o zalogowanie się?",
+'faq_item20' => "Jeśli administrator włączył tę funkcję, tylko zarejestrowani użytkownicy mogą wysyłać e-maile do innych użytkowników za pomocą formularza. Zapobiega to złośliwemu korzystaniu z systemu poczty elektronicznej przez anonimowych użytkowników lub roboty",
+
+'faq_item21' => "Jak mogę wyświetlić awatar z moją nazwą użytkownika?",
+'faq_item22' => "Dwa rodzaje obrazków, widoczne podczas przeglądania postów, mogą być powiązane z twoją nazwą użytkownika. Może to być obrazek związany z Twoją rangą, zazwyczaj w postaci gwiazdek, kwadratów lub kółek, które wskazują liczbę wykonanych przez Ciebie postów lub Twój status na planszy. Drugi rodzaj, zazwyczaj większy obraz, jest znany jako awatar i jest zazwyczaj unikalny i osobisty dla każdego użytkownika. Do administratora forum należy włączanie i wyłączanie awatarów oraz decydowanie o sposobie ich udostępniania. Jeśli nie możesz używać awatarów, skontaktuj się z administratorem forum i zapytaj go, dlaczego chce wyłączyć tę funkcję",
+'faq_item23' => "Jak utworzyć ankietę?",
+'faq_item24' => "Podczas pisania nowego wątku lub edycji pierwszego postu wątku, kliknij zakładkę 'Utwórz ankietę', znajdującą się poniżej głównego formularza postowego; jeśli ta zakładka nie jest dostępna, możesz nie mieć odpowiednich uprawnień do tworzenia ankiet. Wpisz tytuł badania, umieszczając w odpowiednich polach co najmniej dwie opcje, z których każda ma być umieszczona w nowym wierszu. Możesz ustawić liczbę opcji, które użytkownicy mogą wstawić, wybierając podczas głosowania ustawienie \"Opcje na użytkownika\". Możesz również określić limit czasowy w dniach, a następnie zezwolić lub uniemożliwić użytkownikom na modyfikowanie ich głosów",
+'faq_item25' => "Dlaczego nie mogę dodać więcej opcji do ankiety?",
+'faq_item26' => "Limit opcji ankiety jest ustawiany przez administratora forum. Jeśli uważasz, że liczba opcji, które możesz dodać do ankiety jest zbyt mała, zapytaj administratora forum, czy można ją zwiększyć",
+'faq_item27' => "Jak mogę napisać temat na forum?",
+'faq_item28' => "Aby napisać nowy wątek na forum, kliknij na odpowiedni przycisk na ekranie forum lub tematu. Przed wysłaniem wiadomości konieczna może być rejestracja. Na każdym forum, na dole ekranu forum lub tematu wyświetlana jest lista Twoich uprawnień. Na przykład: możesz umieszczać nowe tematy, możesz głosować w ankietach, itp,",
+'faq_item29' => "Jak mogę edytować lub usunąć post?",
+'faq_item30' => "Jeśli nie jesteś administratorem lub moderatorem forum, możesz edytować lub usuwać tylko swoje własne posty. Możesz edytować każdy swój post klikając na odpowiedni przycisk, czasami w ograniczonym czasie po utworzeniu oryginalnego postu. Jeśli ktoś już odpowiedział na post, w małym polu tekstowym pod postem pojawi się informacja o tym, ile razy go edytowałeś, wraz z datą i godziną jego edycji. Ten mały tekst nie pojawi się, jeśli post był edytowany przez moderatora lub administratora, choć mogą oni przejąć inicjatywę i zrobić dyskretną notatkę, dlaczego go edytowali. Zwracamy uwagę, że zwykli użytkownicy nie mogą usuwać własnego postu, jeśli odpowiedź została zamieszczona",
+'faq_item31' => "Jak dodać podpis do postu?",
+'faq_item32' => "Aby dodać podpis do postu, musisz go najpierw utworzyć poprzez Panel użytkownika. Po utworzeniu, możesz zaznaczyć pole Wstaw Podpis na formularzu pocztowym, aby wstawić swój podpis. Możesz również dodać podpis, który zostanie umieszczony na wszystkich Twoich postach poprzez zaznaczenie odpowiedniego pola w Twoim profilu. Jeśli wybierzesz tę ostatnią opcję, nie będziesz już musiał określać na każdym poście, czy chcesz wstawić swój podpis",
+'faq_item33' => "Co to jest BBCode?",
+'faq_item34' => "BBCode jest specjalną implementacją HTML, dającą większą kontrolę nad formatowaniem postu. Użycie kodu BBCode jest ustalane przez administratora, ale możesz go również wyłączyć na zasadzie pojedynczych postów z formularza wysyłania. BBCode jest podobny w architekturze do HTML, znaczniki są zamknięte w nawiasach kwadratowych [ i ] zamiast < i >. Więcej informacji na temat BBCode można znaleźć w przewodniku, który jest dostępny na stronie wysyłkowej",
+'faq_item35' => "Czym są emotikony?",
+'faq_item36' => "Emoticons to małe obrazki, które mogą być używane z krótkim kodem do wyrażania uczuć. Na przykład, \":)\" wyraża radość, a \"'(\" wyraża smutek. Możesz zobaczyć pełną listę emotikonów z formularza wysyłkowego. Staraj się jednak nie nadużywać emotikonów, ponieważ mogą one szybko spowodować, że post stanie się nieczytelny, a moderator może zdecydować się na jego edycję lub całkowite usunięcie. Administrator forum może również ograniczyć liczbę emotikonów, które można umieścić w danym poście,",
+'faq_item37' => "Czy mogę wstawić obrazy?",
+'faq_item38' => "Tak, możesz wstawiać zdjęcia do swoich postów. Jeśli administrator forum zezwolił na załączniki, będziesz mógł wgrać zdjęcia na forum. Jeśli nie, trzeba będzie połączyć się z obrazem przechowywanym na publicznym serwerze internetowym, takim jak http://www.exemple.com/mon-image.gif. Użytkownik nie będzie mógł jednak łączyć się z obrazami przechowywanymi na własnym komputerze (o ile oczywiście sam komputer nie jest serwerem internetowym), ani też łączyć się z obrazami przechowywanymi za pośrednictwem jakiegokolwiek systemu uwierzytelniania, takiego jak Hotmail lub usługi poczty elektronicznej Yahoo, strony chronione hasłem itp. Aby wstawić obraz, należy użyć znacznika BBCode [img]",
+'faq_item39' => "Czym są globalne reklamy?",
+'faq_item40' => "Ogłoszenia globalne zawierają bardzo ważne informacje i należy je sprawdzić jak najszybciej. Pojawiają się one na górze każdego forum i w Twoim Panelu Użytkownika. Uprawnienia do globalnego ogłaszania są ustalane przez administratora forum",
+'faq_item41' => "Co to za ogłoszenia?",
+'faq_item42' => "Ogłoszenia często zawierają ważne informacje o forum, które aktualnie przeglądasz i powinieneś je jak najszybciej przeczytać. Ogłoszenia pojawiają się na górze każdej strony na forum, na którym zostały zamieszczone. Podobnie jak w przypadku ogłoszeń globalnych, uprawnienia do ogłaszania są ustalane przez administratora forum",
+'faq_item43' => "Czym są notatki?",
+'faq_item44' => "Uwagi pojawiają się pod ogłoszeniami i tylko na pierwszej stronie odpowiedniego forum. Są one często dość ważne i zaleca się, abyś skonsultował się z nimi jak tylko będziesz miał taką możliwość. Podobnie jak w przypadku ogłoszeń i ogłoszeń globalnych, uprawnienia dotyczące notatek są ustalane przez administratora forum",
+'faq_item45' => "Co to za zablokowane tematy?",
+'faq_item46' => "Zablokowane tematy to tematy, na które użytkownicy nie mogą już odpowiadać, a każda ankieta automatycznie wygasła. Tematy mogą być blokowane z wielu powodów przez moderatora lub administratora forum. Możesz również zablokować własne tematy, jeśli administrator tak to ustawił",
+'faq_item47' => "Czym są ikony tematu?",
+'faq_item48' => "Ikony tematu to małe obrazki, które autor może wstawić, aby zilustrować treść tematu. Administrator forum mógł nie włączyć tej funkcji",
+
+);
+
+?>

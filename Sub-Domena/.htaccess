@@ -1,0 +1,23 @@
+DirectoryIndex index.php
+
+RewriteEngine On
+
+# DLE Forum
+RewriteRule ^category_([0-9]+)(/?)+$ index.php?do=forum&category=$1 [L]
+RewriteRule ^forum_([0-9]+)(/?)+$ index.php?do=forum&showforum=$1 [L]
+RewriteRule ^forum_([0-9]+)/([0-9]+)(/?)+$ index.php?do=forum&showforum=$1&cstart=$2 [L]
+RewriteRule ^topic_([0-9]+)(/?)+$ index.php?do=forum&showtopic=$1 [L]
+RewriteRule ^topic_([0-9]+)/last(/?)+$ index.php?do=forum&showtopic=$1&lastpost=1 [L]
+RewriteRule ^topic_([0-9]+)/([0-9]+)(/?)+$ index.php?do=forum&showtopic=$1&cstart=$2 [L]
+RewriteRule ^topic_([0-9]+)/reply(/?)+$ index.php?do=forum&act=_topic&code=reply&tid=$1 [L]
+RewriteRule ^forum_([0-9]+)/add(/?)+$ index.php?do=forum&act=add_topic&forum_id=$1 [L]
+RewriteRule ^search(/?)+$ index.php?do=forum&act=search [L]
+RewriteRule ^search/([^/]+)/([0-9]+)(/?)+$ index.php?do=forum&act=search&search_text=$1&cstart=$2 [L]
+RewriteRule ^subscription(/?)+$ index.php?do=forum&act=subscription [L]
+RewriteRule ^getnew(/?)+$ index.php?do=forum&act=getnew [L]
+RewriteRule ^getnew/([0-9]+)(/?)+$ index.php?do=forum&act=getnew&cstart=$1 [L]
+RewriteRule ^warn/([^/]*)(/?)+$ index.php?do=forum&act=warn&user=$1 [L]
+RewriteRule ^warn/([^/]*)/([0-9]+)(/?)+$ index.php?do=forum&act=warn&user=$1&cstart=$2 [L]
+RewriteRule ^reputation/([^/]*)(/?)+$ index.php?do=forum&act=reputation&user=$1 [L]
+RewriteRule ^reputation/([^/]*)/([0-9]+)(/?)+$ index.php?do=forum&act=reputation&user=$1&cstart=$2 [L]
+RewriteRule ^textversion.html$ textversion.php [L]
