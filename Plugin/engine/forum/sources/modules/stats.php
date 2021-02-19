@@ -80,7 +80,7 @@ if(!defined('DATALIFEENGINE'))
 			$stats_array['date'] = $today_date;
 			
 			//User Online 24 hour 
-			$result = $db->query("SELECT * FROM " . PREFIX . "_users WHERE forum_last < '$_TIME' ORDER BY forum_last DESC LIMIT 10");
+			$result = $db->query("SELECT * FROM " . PREFIX . "_users WHERE FROM_UNIXTIME(forum_last) > DATE_SUB(CURDATE(), INTERVAL 1 DAY) ORDER BY forum_last DESC LIMIT 10");
 
 			while ($user_last_row = $db->get_array($result)) {
 		
@@ -197,7 +197,7 @@ if(!defined('DATALIFEENGINE'))
 		}
 		if (!$forum_online['member_list'])
 		{
-			$forum_online['member_list'] = $f_lang['no_member']; // default value: none‚
+			$forum_online['member_list'] = $f_lang['no_member']; // default value: noneâ€š
 		}
 		
 		$tpl->set('{member_online}', $forum_online['member_list']);
