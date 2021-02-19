@@ -25,6 +25,10 @@ $f_lg = array(
 'forum_whoonline' => "Хто в мережі?",
 'faq_question' => "Питання",
 'group_post_edit_title' => "Чи можна редагувати заголовки моїх повідомлень?",
+'licence_file_title'		=> "Ліцензійна угода на форумі DLE",
+'m_faq_statut'				=> "Статус",
+'m_faq_id'					=> "ID",
+
 
 'forum_names1'			=> "Версія форуму DLE 2.7.1",
 'forum_cfg'				=> "Керуйте усіма налаштуваннями форуму",

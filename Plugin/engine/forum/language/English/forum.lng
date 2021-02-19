@@ -5,7 +5,7 @@
  Author: Dj_AlexN & DarkLane
 -----------------------------------------------------
  http://novak-studio.pl/
-https://www.templatedlefr.fr/
+ https://www.templatedlefr.fr/
 -----------------------------------------------------
  Copyright (c) 2015,2021 NOVAK Studio
 =====================================================
@@ -20,9 +20,15 @@ https://www.templatedlefr.fr/
 $f_lang = array(
 
 /*2.7.1 rev2*/
-'fs_new' => "Forum closed, There are new messages",
-'fs_nonew' => "Forum closed, no new posts",
-'last_post_new' => "<img src='{THEME}/forum/images/icon_topic_newest.gif' title='New post' border='0' style='margin-bottom:-6px;' /> by",
+'fs_new' 				=> "Forum closed, There are new messages",
+'fs_nonew'			 	=> "Forum closed, no new posts",
+'last_post_new' 		=> "<img src='{THEME}/forum/images/icon_topic_newest.gif' title='New post' border='0' style='margin-bottom:-6px;' /> by",
+'no_member'    			=> "None",
+
+'f_offline'				=> "Sorry",
+'f_offline1'			=> "Forum is currently disabled",
+'f_offline2'			=> "There are probably some maintenance works in progress or the Administrator has disabled using the forum. <br>Please <a href=\"/\">go to our home page</a>.",
+
 
 /*2.7.1 rev1*/
 

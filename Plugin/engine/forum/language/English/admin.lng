@@ -5,7 +5,7 @@
  Author: Dj_AlexN & DarkLane
 -----------------------------------------------------
  http://novak-studio.pl/
-https://www.templatedlefr.fr/
+ https://www.templatedlefr.fr/
 -----------------------------------------------------
  Copyright (c) 2015,2021 NOVAK Studio
 =====================================================
@@ -16,15 +16,18 @@ https://www.templatedlefr.fr/
 $f_lg = array(
 
 //add for 2.7.1 rev 2
-'forum_not_install' => "DLE Forum is not installed. Please install the plugin (xml file) provided with the archive",
-'account_blocked' => "Your account on the forum is blocked, please contact an administrator",
-'faq_bar_array' => "Frequently Asked Questions",
-'forum_info' => "Information",
-'faq_info_message' => "The FAQ has not been activated by the administrator",
-'forum_all' => "All",
-'forum_whoonline' => "Who's online",
-'faq_question' => "Question",
+'forum_not_install' 	=> "DLE Forum is not installed. Please install the plugin (xml file) provided with the archive",
+'account_blocked' 		=> "Your account on the forum is blocked, please contact an administrator",
+'faq_bar_array' 		=> "Frequently Asked Questions",
+'forum_info' 			=> "Information",
+'faq_info_message' 		=> "The FAQ has not been activated by the administrator",
+'forum_all' 			=> "All",
+'forum_whoonline' 		=> "Who's online",
+'faq_question' 			=> "Question",
 'group_post_edit_title' => "Can edit the titles of his posts? ",
+'licence_file_title'		=> "License agreement on the DLE forum",
+'m_faq_statut'				=> "Status",
+'m_faq_id'					=> "ID",
 
 
 //add for 2.7.1 rev 1

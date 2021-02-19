@@ -29,10 +29,6 @@ $f_lg = array(
 'm_faq_statut'				=> "Status",
 'm_faq_id'					=> "ID",
 
-'f_offline'					=> "Przepraszamy",
-'f_offline1'				=> "Forum Aktualnie jest wyłączone",
-'f_offline2'				=> "Prawdopodobnie trwają prace konserwacyjne bądź Administrator wyłączył korzystanie z forum. <br>Prosimy <a href=\"/\">przejdź na naszą stronę główną</a>.",
-
 //add for 2.7.1 rev 1
 'tools_player' 				=> "Odtwarzacz",
 'tools_players' 			=> "Konfiguracja odtwarzaczy multimedialnych",

@@ -5,7 +5,7 @@
  Author: Dj_AlexN & DarkLane
 -----------------------------------------------------
  http://novak-studio.pl/
-https://www.templatedlefr.fr/
+ https://www.templatedlefr.fr/
 -----------------------------------------------------
  Copyright (c) 2015,2021 NOVAK Studio
 =====================================================
@@ -25,6 +25,9 @@ $f_lg = array(
 "forum_whoonline" => "Who's online?",
 'faq_question' => "Вопрос",
 'group_post_edit_title' => "Можно ли редактировать заголовки его сообщений? ",
+'licence_file_title'		=> "Лицензионное соглашение на форуме DLE",
+'m_faq_statut'				=> "Статус",
+'m_faq_id'					=> "ID",
 
 
 'forum_names1'			=> "DLE Forum Версия 2.7.1",

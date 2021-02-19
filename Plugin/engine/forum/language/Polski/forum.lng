@@ -5,7 +5,7 @@
  Author: Dj_AlexN & DarkLane
 -----------------------------------------------------
  http://novak-studio.pl/
-https://www.templatedlefr.fr/
+ https://www.templatedlefr.fr/
 -----------------------------------------------------
  Copyright (c) 2015,2021 NOVAK Studio
 =====================================================
@@ -16,9 +16,14 @@ https://www.templatedlefr.fr/
 $f_lang = array(
 
 /*2.7.1 rev2*/
-'fs_new' => "Forum zamknięte, Pojawiły się nowe posty",
-'fs_nonew' => "Forum zamknięte, brak nowych postów",
-'last_post_new' => "<img src='{THEME}/forum/images/icon_topic_newest.gif' title='Nowy post' border='0' style='margin-bottom:-6px;' /> przez",
+'fs_new' 				=> "Forum zamknięte, Pojawiły się nowe posty",
+'fs_nonew' 				=> "Forum zamknięte, brak nowych postów",
+'last_post_new' 		=> "<img src='{THEME}/forum/images/icon_topic_newest.gif' title='Nowy post' border='0' style='margin-bottom:-6px;' /> przez",
+'no_member'    			=> "Brak",
+'f_offline'				=> "Przepraszamy",
+'f_offline1'			=> "Forum Aktualnie jest wyłączone",
+'f_offline2'			=> "Prawdopodobnie trwają prace konserwacyjne bądź Administrator wyłączył korzystanie z forum. <br>Prosimy <a href=\"/\">przejdź na naszą stronę główną</a>.",
+
 
 /*2.7.1 rev1*/
 'post_maxlen' 			=> "Długość wiadomości jest większa niż dozwolony limit!",

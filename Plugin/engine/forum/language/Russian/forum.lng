@@ -5,7 +5,7 @@
  Author: Dj_AlexN & DarkLane
 -----------------------------------------------------
  http://novak-studio.pl/
-https://www.templatedlefr.fr/
+ https://www.templatedlefr.fr/
 -----------------------------------------------------
  Copyright (c) 2015,2021 NOVAK Studio
 =====================================================
@@ -23,6 +23,11 @@ $f_lang = array(
 'fs_new' => "Форум закрыт, есть новые сообщения",
 'fs_nonew' => "Форум закрыт, новых сообщений нет",
 'last_post_new' => "<img src='{THEME}/forum/images/icon_topic_newest.gif' title='New post' border='0' style='margin-bottom:-6px;' /> по адресу",
+'no_member'    			=> "Недостаток",
+'f_offline'				=> "Извини",
+'f_offline1'			=> "Форум в настоящее время отключен",
+'f_offline2'			=> "Возможно, сейчас ведутся какие-то работы по техническому обслуживанию или администратор отключил доступ к форуму. <br>Пожалуйста <a href=\"/\">перейти на нашу домашнюю страницу</a>.",
+
 
 /*2.7.1 rev1*/
 
