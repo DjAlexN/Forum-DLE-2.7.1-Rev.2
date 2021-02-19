@@ -407,9 +407,9 @@ if(!defined('DATALIFEENGINE'))
                                         <img src=\"/engine/forum/sources/offline/404.svg\" alt=\"404\" width=\"600\" height=\"480\">
                                     </div>
                 <div id=\"hero-text\">
-                    <h1><mark class=\"styled\">{$f_lg['f_offline']}</mark></h1> 
-                                        <p>{$f_lg['f_offline1']}</p>
-                                        <p>{$f_lg['f_offline2']}</p>
+                    <h1><mark class=\"styled\">{$f_lang['f_offline']}</mark></h1> 
+                                        <p>{$f_lang['f_offline1']}</p>
+                                        <p>{$f_lang['f_offline2']}</p>
                 </div>
             </div>
         </section>");
